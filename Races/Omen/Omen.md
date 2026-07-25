@@ -2,11 +2,14 @@
 
 **Once, these individuals were deemed divine: their horns were a mark of being chosen. But over time, they were cast out, shunned from society, believed to have tainted blood, and their horns plagued by wraiths.**
 
+---
 ### **Stats**
 
 | **Vigor** | **Aether** | **Movement** | **Languages** |
 | --------- | ---------- | ------------ | ------------- |
 | **20**    | **4**      | **Slow**     | **Common**    |
+
+---
 ## **Traits**
 
 ### **Indomitable Figure**

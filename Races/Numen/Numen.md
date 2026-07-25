@@ -2,11 +2,14 @@
 
 **Little is known about the Numen: They are highly intelligent, their race has adapted to live in the shadows and even though they look ashen, they are not. They are a long-lived race, originating from an unknown land.**
 
+---
 ### **Stats**
 
 | **Vigor** | **Aether** | **Movement** | **Languages**         |
 | --------- | ---------- | ------------ | --------------------- |
 | **14**    | **6**      | **Fast**     | **Common  <br>Latin** |
+
+---
 ## **Traits**
 
 ### **Quick-Footed**

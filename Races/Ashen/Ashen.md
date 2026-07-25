@@ -2,11 +2,14 @@
 
 **Ashen ones are well rounded, able to take up many different arms and wield them well, along with training, these individuals could become a jack of all trades.**
 
+---
 ### **Stats**
 
 | **Vigor** | **Aether** | **Movement** | **Languages**             |
 | --------- | ---------- | ------------ | ------------------------- |
 | **16**    | **8**      | **Standard** | **Common  <br>One Other** |
+
+---
 ## **Traits**
 ### **Inner Kindling**
 

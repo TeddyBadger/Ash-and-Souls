@@ -2,11 +2,14 @@
 
 **Forged from wood, rope and other earthly materials, given life by a long forgotten spell: transferring the soul of a dead into this body. These creatures are left to wander aimlessly, no instructions and no tasks, simply searching for a purpose. Due to their relation to death, they have a strong link to the undead. Because your body is not alive, you don’t require food or water, though your mind limits your body as to you, you are alive again.**
 
+---
 ### **Stats**
 
 | **Vigor** | **Aether** | **Movement** | **Languages**         |
 | --------- | ---------- | ------------ | --------------------- |
 | **8**     | **14**     | **Fast**     | **Common  <br>Runic** |
+
+---
 ## **Traits**
 ### **Whispers of the Dead**
 

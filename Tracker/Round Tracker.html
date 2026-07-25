@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solasfall · Priority Tracker</title>
+    <style>
+
+        :root {
+            --fg: #C8B8FF;
+            --bg: #04040A;
+            --cursor-bg: #7766FF;
+            --cursor-border: #7766FF;
+            --cursor-fg: #04040A;
+            --selection-bg: #6478BC;
+            --selection-fg: #E8D8FF;
+
+            --black: #04040A;
+            --red: #5268AC;
+            --green: #791E72;
+            --yellow: #7766FF;
+            --blue: #B498E9;
+            --magenta: #D354A1;
+            --cyan: #7766FF;
+            --white: #C8B8FF;
+
+            --bright-black: #6478BC;
+            --bright-red: #6478BC;
+            --bright-green: #8A2882;
+            --bright-yellow: #8877FF;
+            --bright-blue: #C4A8F9;
+            --bright-magenta: #E364B1;
+            --bright-cyan: #9988FF;
+            --bright-white: #E8D8FF;
+
+            --panel: #0A0A18;
+            --panel-alt: #111128;
+            --border: #2A2A4A;
+            --text: var(--fg);
+            --text-dim: #8877BB;
+            --accent: var(--cursor-bg);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        ::selection {
+            background: var(--selection-bg);
+            color: var(--selection-fg);
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            height: 100vh;
+            display: flex;
+            overflow: hidden;
+        }
+
+        /* ── scrollbar ── */
+        ::-webkit-scrollbar {
+            width: 5px;
+            height: 5px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--panel);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--accent);
+            border-radius: 4px;
+        }
+
+        /* ── left panel ── */
+        #left {
+            width: 44%;
+            min-width: 340px;
+            max-width: 600px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background: var(--panel);
+            border-right: 1px solid var(--border);
+            padding: 14px 16px 16px 16px;
+            flex-shrink: 0;
+        }
+
+        #left h2 {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text-dim);
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+
+        #left .sub {
+            font-size: 11px;
+            color: var(--text-dim);
+            margin-bottom: 8px;
+            opacity: 0.7;
+        }
+
+        #scriptArea {
+            flex: 1;
+            min-height: 200px;
+            width: 100%;
+            background: var(--panel-alt);
+            color: var(--text);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 12px 14px;
+            font-family: 'Cascadia Code', Consolas, 'JetBrains Mono', monospace;
+            font-size: 13px;
+            resize: none;
+            line-height: 1.6;
+            tab-size: 2;
+            transition: border-color 0.2s;
+        }
+        #scriptArea:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        #left .row {
+            display: flex;
+            gap: 8px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        #left .row .spacer {
+            flex: 1;
+        }
+
+        .btn {
+            background: var(--accent);
+            color: var(--cursor-fg);
+            border: none;
+            border-radius: 6px;
+            padding: 8px 18px;
+            font-weight: 600;
+            font-size: 13px;
+            cursor: pointer;
+            transition: opacity 0.15s, transform 0.1s;
+            letter-spacing: 0.02em;
+        }
+        .btn:hover {
+            opacity: 0.85;
+        }
+        .btn:active {
+            transform: scale(0.97);
+        }
+        .btn.secondary {
+            background: var(--panel-alt);
+            color: var(--text);
+            border: 1px solid var(--border);
+        }
+        .btn.secondary:hover {
+            background: var(--border);
+        }
+        .btn.danger {
+            background: var(--red);
+            color: var(--bg);
+        }
+
+        .status-badge {
+            font-size: 12px;
+            color: var(--text-dim);
+            padding: 4px 10px;
+            background: var(--panel-alt);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+
+        /* ── right panel ── */
+        #right {
+            flex: 1;
+            height: 100vh;
+            overflow-y: auto;
+            padding: 14px 20px 20px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            background: var(--bg);
+        }
+
+        /* ── character table ── */
+        #charSection {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 12px 14px;
+            flex-shrink: 0;
+        }
+
+        #charSection .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        #charSection .header h3 {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--text-dim);
+            font-weight: 600;
+        }
+        #charSection .header small {
+            color: var(--text-dim);
+            font-size: 11px;
+            opacity: 0.6;
+        }
+
+        #charTable {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            max-height: 160px;
+            overflow-y: auto;
+            padding-right: 4px;
+        }
+        .charRow {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 4px 6px;
+            border-radius: 4px;
+            background: var(--panel-alt);
+            font-size: 13px;
+            flex-wrap: wrap;
+        }
+        .charRow .cname {
+            font-weight: 600;
+            min-width: 70px;
+            flex-shrink: 0;
+        }
+        .charRow input[type="color"] {
+            width: 30px;
+            height: 24px;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            background: none;
+            padding: 1px;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        .charRow select {
+            background: var(--panel-alt);
+            color: var(--text);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 2px 6px;
+            font-size: 13px;
+            cursor: pointer;
+            flex-shrink: 0;
+            width: 52px;
+        }
+        .charRow select:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+        .charRow .grace-label {
+            color: var(--text-dim);
+            font-size: 11px;
+            margin-left: 2px;
+            flex-shrink: 0;
+        }
+        .charRow .empty {
+            color: var(--text-dim);
+            font-size: 12px;
+            opacity: 0.5;
+            padding: 4px 0;
+        }
+
+        /* ── timeline ── */
+        #timelineWrap {
+            flex: 1;
+            min-height: 200px;
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 12px 14px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #timelineWrap .tl-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            flex-shrink: 0;
+        }
+        #timelineWrap .tl-header h3 {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--text-dim);
+            font-weight: 600;
+        }
+        #timelineWrap .tl-header .filter-row {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            font-size: 12px;
+            color: var(--text-dim);
+        }
+        #timelineWrap .tl-header select {
+            background: var(--panel-alt);
+            color: var(--text);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 3px 8px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        #timelineWrap .tl-header select:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        #timeline {
+            flex: 1;
+            overflow-y: auto;
+            padding-right: 4px;
+        }
+
+        .roundHeader {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--accent);
+            margin: 12px 0 6px 0;
+            padding-bottom: 4px;
+            border-bottom: 1px solid var(--border);
+            letter-spacing: 0.04em;
+        }
+        .roundHeader:first-of-type {
+            margin-top: 0;
+        }
+
+        .tickGroup {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 5px;
+            align-items: flex-start;
+        }
+        .tickLabel {
+            width: 44px;
+            flex-shrink: 0;
+            text-align: right;
+            font-weight: 700;
+            color: var(--text-dim);
+            font-size: 13px;
+            padding-top: 6px;
+            font-variant-numeric: tabular-nums;
+        }
+        .actionCards {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            flex: 1;
+        }
+
+        .card {
+            border-left: 4px solid var(--accent);
+            background: var(--panel-alt);
+            border-radius: 4px;
+            padding: 5px 10px;
+            transition: background 0.15s;
+        }
+        .card:hover {
+            background: var(--border);
+        }
+        .cardTop {
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+            font-weight: 600;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .cardTop .left {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+        .cardTop .left .nameTag {
+            font-weight: 700;
+        }
+        .cardTop .left .grace-badge {
+            font-size: 10px;
+            background: var(--panel);
+            padding: 0 8px;
+            border-radius: 10px;
+            color: var(--text-dim);
+            border: 1px solid var(--border);
+            font-weight: 400;
+        }
+        .cardMeta {
+            font-size: 11px;
+            color: var(--text-dim);
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .cardMeta .type-badge {
+            background: var(--panel);
+            padding: 0 8px;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            font-weight: 400;
+        }
+        .cardDesc {
+            font-size: 12px;
+            margin-top: 2px;
+            color: var(--text);
+            opacity: 0.85;
+            padding-left: 2px;
+        }
+
+        .empty-tl {
+            color: var(--text-dim);
+            font-size: 13px;
+            opacity: 0.5;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        #errorOut {
+            margin-top: 6px;
+            flex-shrink: 0;
+        }
+        .errorBox {
+            background: #1a0a0e;
+            border: 1px solid #6a2a32;
+            color: #ffb3ba;
+            border-radius: 6px;
+            padding: 8px 12px;
+            font-size: 12px;
+            white-space: pre-wrap;
+            font-family: monospace;
+            max-height: 120px;
+            overflow-y: auto;
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--panel-alt);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 8px 20px;
+            border-radius: 8px;
+            font-size: 13px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: 999;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+        }
+        .toast.show {
+            opacity: 1;
+        }
+
+        /* ── responsive ── */
+        @media (max-width: 820px) {
+            body {
+                flex-direction: column;
+                height: auto;
+                overflow-y: auto;
+            }
+            #left {
+                width: 100%;
+                max-width: none;
+                height: auto;
+                min-height: 340px;
+                border-right: none;
+                border-bottom: 1px solid var(--border);
+            }
+            #right {
+                height: auto;
+                min-height: 500px;
+            }
+            #scriptArea {
+                min-height: 140px;
+            }
+        }
+
+        @media (max-width: 500px) {
+            #left {
+                padding: 10px;
+            }
+            #right {
+                padding: 10px;
+            }
+            .charRow {
+                gap: 6px;
+                font-size: 12px;
+            }
+            .charRow .cname {
+                min-width: 50px;
+            }
+            .tickLabel {
+                width: 32px;
+                font-size: 12px;
+            }
+            .cardTop {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ─── LEFT PANEL ─── -->
+    <div id="left">
+        <h2> Combat Script</h2>
+        <textarea id="scriptArea" spellcheck="false"></textarea>
+        <div class="row">
+            <button class="btn" id="updateBtn">⟳ Update Timeline</button>
+            <button class="btn secondary" id="clearScriptBtn">Clear Script</button>
+            <span class="spacer"></span>
+            <span class="status-badge" id="charCount">0 characters</span>
+        </div>
+        <div id="errorOut"></div>
+    </div>
+
+    <!-- ─── RIGHT PANEL ─── -->
+    <div id="right">
+        <!-- Character table -->
+        <div id="charSection">
+            <div class="header">
+                <h3> Characters</h3>
+	    </div>
+            <div id="charTable"></div>
+        </div>
+
+        <!-- Timeline -->
+        <div id="timelineWrap">
+            <div class="tl-header">
+                <h3> Timeline</h3>
+                <div class="filter-row">
+                    <span>Round</span>
+                    <select id="roundFilter"><option value="all">All</option></select>
+                </div>
+            </div>
+            <div id="timeline"></div>
+        </div>
+    </div>
+
+    <!-- toast -->
+    <div id="toast" class="toast"></div>
+
+    <script>
+        // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        //  STORAGE KEYS
+        // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        const LS_SCRIPT = 'sf_script_raw';
+        const LS_GRACE = 'sf_grace_map';
+        const LS_COLOURS = 'sf_colour_map';
+
+        // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        //  DOM refs
+        // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        const scriptArea = document.getElementById('scriptArea');
+        const updateBtn = document.getElementById('updateBtn');
+        const clearScriptBtn = document.getElementById('clearScriptBtn');
+        const errorOut = document.getElementById('errorOut');
+        const charTableEl = document.getElementById('charTable');
+        const timelineEl = document.getElementById('timeline');
+        const roundFilter = document.getElementById('roundFilter');
+        const charCount = document.getElementById('charCount');
+        const toastEl = document.getElementById('toast');
+
+        // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        //  STATE
+        // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        // actions: flat array of { round, person, tick, actionType, actionName, description }
+        let actions = [];
+        // grace: { personName: number (0-6) }
+        let graceMap = JSON.parse(localStorage.getItem(LS_GRACE) || '{}');
+        // colours: { personName: hex string }
+        let colourMap = JSON.parse(localStorage.getItem(LS_COLOURS) || '{}');
+
+        const defaultPalette = [
+            '#7766FF', '#C8B8FF', '#B498E9', '#D354A1',
+            '#5268AC', '#791E72', '#6478BC', '#8A2882',
+            '#8877FF', '#C4A8F9', '#E364B1', '#9988FF'
+        ];
+
+        // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        //  HELPERS
+        // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        function getColour(name) {
+            if (!colourMap[name]) {
+                const used = Object.values(colourMap);
+                const next = defaultPalette.find(c => !used.includes(c)) ||
+                    defaultPalette[Object.keys(colourMap).length % defaultPalette.length];
+                colourMap[name] = next;
+                localStorage.setItem(LS_COLOURS, JSON.stringify(colourMap));
+            }
+            return colourMap[name];
+        }
+
+        function getGrace(name) {
+            if (graceMap[name] === undefined) {
+                graceMap[name] = 3; // default
+                localStorage.setItem(LS_GRACE, JSON.stringify(graceMap));
+            }
+            return graceMap[name];
+        }
+
+        function setGrace(name, val) {
+            graceMap[name] = Math.min(6, Math.max(0, Number(val)));
+            localStorage.setItem(LS_GRACE, JSON.stringify(graceMap));
+        }
+
+        function setColour(name, hex) {
+            colourMap[name] = hex;
+            localStorage.setItem(LS_COLOURS, JSON.stringify(colourMap));
+        }
+
+        function saveScript() {
+            localStorage.setItem(LS_SCRIPT, scriptArea.value);
+        }
+
+        function loadScript() {
+            const saved = localStorage.getItem(LS_SCRIPT);
+            if (saved !== null) scriptArea.value = saved;
+        }
+
+        function showToast(msg, dur = 1800) {
+            toastEl.textContent = msg;
+            toastEl.classList.add('show');
+            clearTimeout(toastEl._hide);
+            toastEl._hide = setTimeout(() => toastEl.classList.remove('show'), dur);
+        }
+
+        // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        //  PARSER (fixed to handle ']' closing brackets)
+        // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        function parseScript(text) {
+            const errors = [];
+            const result = [];
+
+            const lines = text.split('\n').map(l => l.trimEnd());
+            let i = 0;
+
+            while (i < lines.length) {
+                const line = lines[i];
+                // skip empty
+                if (!line.trim()) { i++; continue; }
+
+                // ── Round header: "1 {" or "1{" ──
+                const roundMatch = line.match(/^(\d+)\s*\{/);
+                if (roundMatch) {
+                    const round = parseInt(roundMatch[1], 10);
+                    i++;
+                    // parse inside round until we hit '}'
+                    let currentPerson = null;
+                    let currentActions = [];
+
+                    while (i < lines.length) {
+                        const l = lines[i];
+                        const trimmed = l.trim();
+                        if (!trimmed) { i++; continue; }
+
+                        // close round
+                        if (trimmed === '}') {
+                            // flush current person before closing round
+                            if (currentPerson) {
+                                currentActions.forEach(a => {
+                                    result.push({
+                                        round,
+                                        person: currentPerson,
+                                        tick: a.tick,
+                                        actionType: a.actionType,
+                                        actionName: a.actionName,
+                                        description: a.description || ''
+                                    });
+                                });
+                            }
+                            i++;
+                            break;
+                        }
+
+                        // ── skip person closing bracket ']' ──
+                        if (trimmed === ']') {
+                            i++;
+                            continue;
+                        }
+
+                        // ── Person header: "Asia [" or "Asia[" ──
+                        const personMatch = trimmed.match(/^([^\[\]\{\}]+)\s*\[/);
+                        if (personMatch) {
+                            // flush previous person
+                            if (currentPerson) {
+                                currentActions.forEach(a => {
+                                    result.push({
+                                        round,
+                                        person: currentPerson,
+                                        tick: a.tick,
+                                        actionType: a.actionType,
+                                        actionName: a.actionName,
+                                        description: a.description || ''
+                                    });
+                                });
+                            }
+                            currentPerson = personMatch[1].trim();
+                            currentActions = [];
+                            i++;
+                            continue;
+                        }
+
+                        // ── Action line: "14 Full: Bite" or "7,6,5 Free: Crawl" ──
+                        const actionMatch = trimmed.match(/^([\d,]+)\s+(\w+)\s*:\s*(.+)/);
+                        if (actionMatch && currentPerson) {
+                            const ticksStr = actionMatch[1];
+                            const actionType = actionMatch[2].trim();
+                            const actionName = actionMatch[3].trim();
+
+                            const ticks = ticksStr.split(',').map(s => parseInt(s.trim(), 10)).filter(n => !isNaN(n));
+                            if (ticks.length === 0) {
+                                errors.push(`Round ${round}, ${currentPerson}: invalid tick list "${ticksStr}" — skipped.`);
+                                i++;
+                                continue;
+                            }
+
+                            // Description may be on same line after a dash
+                            const descOnSameLine = trimmed.match(/^[\d,]+\s+\w+\s*:\s*.+?\s*-\s*(.+)/);
+                            let description = '';
+                            if (descOnSameLine) {
+                                description = descOnSameLine[1].trim();
+                                // push for each tick
+                                ticks.forEach(t => {
+                                    result.push({
+                                        round,
+                                        person: currentPerson,
+                                        tick: t,
+                                        actionType,
+                                        actionName,
+                                        description
+                                    });
+                                });
+                                i++;
+                                continue;
+                            }
+
+                            // Otherwise, description is on the next line(s) starting with '-'
+                            const pending = {
+                                ticks: ticks,
+                                actionType,
+                                actionName,
+                                description: ''
+                            };
+
+                            i++;
+                            // read description lines (start with '-')
+                            let descLines = [];
+                            while (i < lines.length) {
+                                const dl = lines[i].trim();
+                                if (dl.startsWith('-')) {
+                                    descLines.push(dl.slice(1).trim());
+                                    i++;
+                                } else {
+                                    break;
+                                }
+                            }
+                            pending.description = descLines.join(' ');
+
+                            // push for each tick
+                            pending.ticks.forEach(t => {
+                                result.push({
+                                    round,
+                                    person: currentPerson,
+                                    tick: t,
+                                    actionType: pending.actionType,
+                                    actionName: pending.actionName,
+                                    description: pending.description
+                                });
+                            });
+                            continue;
+                        }
+
+                        // ── if we're in a person but line doesn't match anything ──
+                        if (currentPerson) {
+                            // maybe it's a description line that wasn't caught?
+                            if (trimmed.startsWith('-')) {
+                                const desc = trimmed.slice(1).trim();
+                                if (currentActions.length > 0) {
+                                    const last = currentActions[currentActions.length - 1];
+                                    last.description = last.description ? last.description + ' ' + desc : desc;
+                                } else {
+                                    errors.push(`Round ${round}, ${currentPerson}: description without action — "${trimmed}"`);
+                                }
+                                i++;
+                                continue;
+                            }
+                            // unknown line inside person block
+                            errors.push(`Round ${round}, ${currentPerson}: unrecognised line — "${trimmed}"`);
+                            i++;
+                            continue;
+                        }
+
+                        // unknown line outside any block
+                        errors.push(`Unrecognised line: "${trimmed}"`);
+                        i++;
+                    }
+
+                    // after round loop, ensure we flushed the last person (already done on '}')
+                    continue;
+                }
+
+                // Not a round header — skip
+                i++;
+            }
+
+            return { actions: result, errors };
+        }
+
+        // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        //  RENDER
+        // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        function renderCharTable() {
+            const names = [...new Set(actions.map(a => a.person))].sort();
+            charTableEl.innerHTML = '';
+
+            if (names.length === 0) {
+                charTableEl.innerHTML = '<div class="charRow"><span class="empty">No characters found — paste a script and update.</span></div>';
+                return;
+            }
+
+            names.forEach(name => {
+                const grace = getGrace(name);
+                const colour = getColour(name);
+                const row = document.createElement('div');
+                row.className = 'charRow';
+
+                const nameSpan = document.createElement('span');
+                nameSpan.className = 'cname';
+                nameSpan.style.color = colour;
+                nameSpan.textContent = name;
+
+                const colourInput = document.createElement('input');
+                colourInput.type = 'color';
+                colourInput.value = colour;
+                colourInput.addEventListener('input', (e) => {
+                    setColour(name, e.target.value);
+                    renderCharTable();
+                    renderTimeline();
+                });
+
+                const graceLabel = document.createElement('span');
+                graceLabel.className = 'grace-label';
+                graceLabel.textContent = 'Grace';
+
+                const graceSelect = document.createElement('select');
+                for (let g = 0; g <= 6; g++) {
+                    const opt = document.createElement('option');
+                    opt.value = String(g);
+                    opt.textContent = String(g);
+                    if (g === grace) opt.selected = true;
+                    graceSelect.appendChild(opt);
+                }
+                graceSelect.addEventListener('change', (e) => {
+                    setGrace(name, parseInt(e.target.value, 10));
+                    renderTimeline();
+                });
+
+                row.appendChild(nameSpan);
+                row.appendChild(colourInput);
+                row.appendChild(graceLabel);
+                row.appendChild(graceSelect);
+                charTableEl.appendChild(row);
+            });
+        }
+
+        function renderTimeline() {
+            const filterVal = roundFilter.value;
+
+            let filtered = actions;
+            if (filterVal !== 'all') {
+                const roundNum = parseInt(filterVal, 10);
+                filtered = actions.filter(a => a.round === roundNum);
+            }
+
+            const rounds = [...new Set(filtered.map(a => a.round))].sort((a, b) => a - b);
+
+            timelineEl.innerHTML = '';
+
+            if (filtered.length === 0) {
+                timelineEl.innerHTML = '<div class="empty-tl">No actions for this round. Paste a script and click Update.</div>';
+                return;
+            }
+
+            rounds.forEach(round => {
+                const roundEntries = filtered.filter(a => a.round === round);
+
+                const ticks = [...new Set(roundEntries.map(a => a.tick))].sort((a, b) => b - a);
+
+                const header = document.createElement('div');
+                header.className = 'roundHeader';
+                header.textContent = `Round ${round}`;
+                timelineEl.appendChild(header);
+
+                ticks.forEach(tick => {
+                    const tickActions = roundEntries.filter(a => a.tick === tick);
+
+                    // sort by grace descending within this tick
+                    tickActions.sort((a, b) => {
+                        const gA = getGrace(a.person);
+                        const gB = getGrace(b.person);
+                        return gB - gA;
+                    });
+
+                    const group = document.createElement('div');
+                    group.className = 'tickGroup';
+
+                    const label = document.createElement('div');
+                    label.className = 'tickLabel';
+                    label.textContent = tick;
+                    group.appendChild(label);
+
+                    const cardsWrap = document.createElement('div');
+                    cardsWrap.className = 'actionCards';
+
+                    tickActions.forEach(a => {
+                        const colour = getColour(a.person);
+                        const grace = getGrace(a.person);
+
+                        const card = document.createElement('div');
+                        card.className = 'card';
+                        card.style.borderLeftColor = colour;
+
+                        const top = document.createElement('div');
+                        top.className = 'cardTop';
+
+                        const left = document.createElement('span');
+                        left.className = 'left';
+                        const nameTag = document.createElement('span');
+                        nameTag.className = 'nameTag';
+                        nameTag.style.color = colour;
+                        nameTag.textContent = a.person;
+                        const graceBadge = document.createElement('span');
+                        graceBadge.className = 'grace-badge';
+                        graceBadge.textContent = `grace ${grace}`;
+                        left.appendChild(nameTag);
+                        left.appendChild(graceBadge);
+                        left.appendChild(document.createTextNode(`— ${a.actionName}`));
+
+                        const meta = document.createElement('span');
+                        meta.className = 'cardMeta';
+                        const typeBadge = document.createElement('span');
+                        typeBadge.className = 'type-badge';
+                        typeBadge.textContent = a.actionType;
+                        meta.appendChild(typeBadge);
+                        meta.appendChild(document.createTextNode(`tick ${a.tick}`));
+
+                        top.appendChild(left);
+                        top.appendChild(meta);
+
+                        const desc = document.createElement('div');
+                        desc.className = 'cardDesc';
+                        desc.textContent = a.description || '';
+
+                        card.appendChild(top);
+                        card.appendChild(desc);
+                        cardsWrap.appendChild(card);
+                    });
+
+                    group.appendChild(cardsWrap);
+                    timelineEl.appendChild(group);
+                });
+            });
+        }
+
+        function updateRoundFilterOptions() {
+            const rounds = [...new Set(actions.map(a => a.round))].sort((a, b) => a - b);
+            const current = roundFilter.value;
+            roundFilter.innerHTML = '<option value="all">All rounds</option>' +
+                rounds.map(r => `<option value="${r}">Round ${r}</option>`).join('');
+            if ([...roundFilter.options].some(o => o.value === current)) {
+                roundFilter.value = current;
+            }
+        }
+
+        function renderErrors(errors) {
+            if (!errors || errors.length === 0) {
+                errorOut.innerHTML = '';
+                return;
+            }
+            errorOut.innerHTML = `<div class="errorBox">${errors.map(e => e.replace(/</g, '&lt;')).join('\n')}</div>`;
+        }
+
+        function fullRender(errors) {
+            renderCharTable();
+            updateRoundFilterOptions();
+            renderTimeline();
+            renderErrors(errors || []);
+            charCount.textContent = `${actions.length} action${actions.length !== 1 ? 's' : ''}`;
+        }
+
+        // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        //  UPDATE (parse + render)
+        // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        function doUpdate() {
+            const text = scriptArea.value;
+            saveScript();
+
+            const { actions: parsed, errors } = parseScript(text);
+
+            const names = [...new Set(parsed.map(a => a.person))];
+            names.forEach(name => {
+                getGrace(name);
+                getColour(name);
+            });
+
+            actions = parsed;
+            fullRender(errors);
+
+            if (errors.length === 0 && parsed.length > 0) {
+                showToast(`✅ Loaded ${parsed.length} action${parsed.length !== 1 ? 's' : ''}`);
+            } else if (parsed.length === 0 && text.trim()) {
+                showToast('⚠️ No actions parsed — check format', 2500);
+            }
+        }
+
+        // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        //  EVENT BINDING
+        // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        updateBtn.addEventListener('click', doUpdate);
+
+        clearScriptBtn.addEventListener('click', () => {
+            if (scriptArea.value && !confirm('Clear the script text?')) return;
+            scriptArea.value = '';
+            saveScript();
+            actions = [];
+            fullRender([]);
+            showToast('Script cleared');
+        });
+
+        roundFilter.addEventListener('change', renderTimeline);
+
+        let saveTimer;
+        scriptArea.addEventListener('input', () => {
+            clearTimeout(saveTimer);
+            saveTimer = setTimeout(() => {
+                saveScript();
+                charCount.textContent = `${scriptArea.value.length} characters`;
+            }, 400);
+        });
+
+        // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        //  INIT
+        // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        loadScript();
+        if (scriptArea.value.trim()) {
+            doUpdate();
+        } else {
+            actions = [];
+            fullRender([]);
+            charCount.textContent = '0 characters';
+            const example = `1 {\n  Asia [\n    14 Full: Bite\n    -Bite Enemy 1\n    13 Full: Latch\n    -Latch on Enemy 1\n  ]\n  Teddy [\n    14 Half: Channeled Emberstrike\n    -Set fists aflame\n    13 Full: Unarmed Strike\n    -attack dice 3\n    12 Full: unarmed strike\n    -attack dice 2\n    8 Half: Brace\n    7,6,5 Free: Crawl\n    -crawl 3m (1m per tick)\n  ]\n}`;
+            if (!localStorage.getItem(LS_SCRIPT)) {
+                scriptArea.value = example;
+                saveScript();
+                doUpdate();
+            }
+        }
+
+        console.log('Priority Tracker ready');
+    </script>
+
+</body>
+</html>

@@ -2,11 +2,14 @@
 
 **Though you are part ashen, you display major qualities of the ancient dragons of old: A variety of features ranging from a tail, claws and scaley skin.**
 
+---
 ### **Stats**
 
 | **Vigor** | **Aether** | **Movement** | **Languages**            |
 | --------- | ---------- | ------------ | ------------------------ |
 | **18**    | **6**      | **Standard** | **Common  <br>Draconic** |
+
+---
 ## **Traits**
 ### **Rough Skin**
 

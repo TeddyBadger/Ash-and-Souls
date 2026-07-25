@@ -6,6 +6,7 @@
 |  Aether  | RACE + Insight  |
 | Evasion  |    8 + Grace    |
 
+---
 ## **Estus**
 
 **Each player starts with 2 estus flasks. These can be allocated in any chosen way between crimson estus flasks and cerulean estus flasks.**
@@ -23,6 +24,7 @@
 |       +5        |         18          |
 |       +6        |         20          |
 
+---
 ## **Levels**  
 
 **When defeating enemies, you will acquire a resource called “souls”. These souls can be exchanged for trait points or used as currency in shops, or even changed into consumable item variants of souls.
@@ -36,9 +38,10 @@
 **These shards can be found by slaying renowned enemies named “shard bearers”, the great beasts that rule the ruined lands of Yarven.
 
 **Each level acquired will increase the following stats by:  
-Vigor: 8 + vitality  
-Aether: 5 + insight
+Vigor: 1d8 + vitality  
+Aether: 1d6 + insight
 
+---
 ## **Unique Items**
 
 |      **Name**       |                                   **Use**                                   |                 **Stat Cost**                  |
