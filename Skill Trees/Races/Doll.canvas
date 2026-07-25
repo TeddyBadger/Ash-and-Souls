@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"grp_doll","type":"group","x":-480,"y":-120,"width":1460,"height":660,"label":"Doll"},
+		{"id":"t1","type":"text","text":"Whispers of the Dead\nPrereq: None\nCost: 2","x":-440,"y":-60,"width":260,"height":80},
+		{"id":"t3","type":"text","text":"Spiritual Link\nPrereq: None\nCost: 2","x":-120,"y":-60,"width":260,"height":80},
+		{"id":"t4","type":"text","text":"Bond Beyond the Dead\nPrereq: Previous Node\nCost: 3","x":-120,"y":160,"width":260,"height":80},
+		{"id":"t5","type":"text","text":"Summoning Proficiency\nPrereq: None\nCost: 2","x":340,"y":-60,"width":260,"height":80},
+		{"id":"t6","type":"text","text":"Undead Expert\nPrereq: Previous Node\nCost: 2","x":340,"y":160,"width":260,"height":80},
+		{"id":"t7","type":"text","text":"Unbreakable Connections\nPrereq: Previous Nodes\nCost: 3","x":110,"y":400,"width":300,"height":100},
+		{"id":"t2","type":"text","text":"Inhuman Body\nPrereq: None\nCost: 2","x":660,"y":-60,"width":260,"height":80}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"t3","fromSide":"bottom","toNode":"t4","toSide":"top"},
+		{"id":"e2","fromNode":"t5","fromSide":"bottom","toNode":"t6","toSide":"top"},
+		{"id":"e3","fromNode":"t4","fromSide":"bottom","toNode":"t7","toSide":"top"},
+		{"id":"e4","fromNode":"t6","fromSide":"bottom","toNode":"t7","toSide":"top"}
+	]
+}

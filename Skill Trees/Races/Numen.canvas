@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"grp_quick","type":"group","x":-460,"y":-80,"width":1540,"height":580,"label":"Numen"},
+		{"id":"t1","type":"text","text":"Quick-Footed\nPrereq: None\nCost: 2","x":-440,"y":-60,"width":260,"height":80},
+		{"id":"t2","type":"text","text":"Natural Stealth\nPrereq: None\nCost: 2","x":20,"y":-60,"width":260,"height":80},
+		{"id":"t4","type":"text","text":"Surprise Attack\nPrereq: None\nCost: 2","x":480,"y":-60,"width":260,"height":80},
+		{"id":"t5","type":"text","text":"Perfect Camouflage\nPrereq: Previous Nodes\nCost: 4","x":-210,"y":160,"width":280,"height":80},
+		{"id":"t6","type":"text","text":"Lethal Strike\nPrereq: Previous Node\nCost: 3","x":480,"y":160,"width":260,"height":80},
+		{"id":"t7","type":"text","text":"Master of Agility\nPrereq: Previous Nodes\nCost: 4","x":135,"y":400,"width":280,"height":80},
+		{"id":"t3","type":"text","text":"Extreme Awareness\nPrereq: None\nCost: 2","x":800,"y":-60,"width":260,"height":80}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"t1","fromSide":"bottom","toNode":"t5","toSide":"top"},
+		{"id":"e2","fromNode":"t2","fromSide":"bottom","toNode":"t5","toSide":"top"},
+		{"id":"e3","fromNode":"t4","fromSide":"bottom","toNode":"t6","toSide":"top"},
+		{"id":"e4","fromNode":"t5","fromSide":"bottom","toNode":"t7","toSide":"top"},
+		{"id":"e5","fromNode":"t6","fromSide":"bottom","toNode":"t7","toSide":"top"}
+	]
+}

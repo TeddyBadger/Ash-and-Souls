@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"grp_dragon","type":"group","x":-480,"y":-80,"width":1240,"height":580,"label":"Dragonkin"},
+		{"id":"t1","type":"text","text":"Rough Skin\nPrereq: None\nCost: 2","x":-440,"y":-60,"width":260,"height":80},
+		{"id":"t2","type":"text","text":"Elemental Lineage\nPrereq: None\nCost: 2","x":20,"y":-60,"width":260,"height":80},
+		{"id":"t3","type":"text","text":"Quaking Roar\nPrereq: None\nCost: 2","x":480,"y":-60,"width":260,"height":80},
+		{"id":"t4","type":"text","text":"Imbued Scales\nPrereq: Previous Node\nCost: 3","x":-440,"y":160,"width":260,"height":80},
+		{"id":"t6","type":"text","text":"Tail Guard\nPrereq: Previous Node\nCost: 2","x":-440,"y":400,"width":260,"height":80},
+		{"id":"t5","type":"text","text":"Razor Claws\nPrereq: Previous Node\nCost: 2","x":-80,"y":160,"width":260,"height":80},
+		{"id":"t7","type":"text","text":"Draconic Outrage\nPrereq: Previous Nodes\nCost: 4","x":280,"y":160,"width":280,"height":80}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"t1","fromSide":"bottom","toNode":"t4","toSide":"top"},
+		{"id":"e2","fromNode":"t4","fromSide":"bottom","toNode":"t6","toSide":"top"},
+		{"id":"e3","fromNode":"t2","fromSide":"bottom","toNode":"t5","toSide":"top"},
+		{"id":"e4","fromNode":"t2","fromSide":"bottom","toNode":"t7","toSide":"top"},
+		{"id":"e5","fromNode":"t3","fromSide":"bottom","toNode":"t7","toSide":"top"}
+	]
+}

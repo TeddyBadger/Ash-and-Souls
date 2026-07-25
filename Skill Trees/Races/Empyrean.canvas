@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"grp_omen","type":"group","x":-460,"y":-80,"width":1220,"height":620,"label":"Empyrean"},
+		{"id":"t1","type":"text","text":"Advanced Memory\nPrereq: None\nCost: 2","x":-440,"y":-60,"width":260,"height":80},
+		{"id":"t2","type":"text","text":"Holy Aid\nPrereq: None\nCost: 2","x":20,"y":-60,"width":260,"height":80},
+		{"id":"t3","type":"text","text":"Chosen One\nPrereq: None\nCost: 3","x":480,"y":-60,"width":260,"height":80},
+		{"id":"t4","type":"text","text":"Adept Caster\nPrereq: Previous Node\nCost: 2","x":-440,"y":160,"width":260,"height":80},
+		{"id":"t5","type":"text","text":"Divine Aid\nPrereq: Previous Node\nCost: 3","x":20,"y":160,"width":260,"height":80},
+		{"id":"t6","type":"text","text":"God-Like Blood\nPrereq: Previous Nodes\nCost: 4","x":-220,"y":400,"width":280,"height":100},
+		{"id":"t7","type":"text","text":"The Saviour\nPrereq: Previous Nodes\nCost: 4","x":340,"y":400,"width":280,"height":100}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"t1","fromSide":"bottom","toNode":"t4","toSide":"top"},
+		{"id":"e2","fromNode":"t2","fromSide":"bottom","toNode":"t5","toSide":"top"},
+		{"id":"e3","fromNode":"t4","fromSide":"bottom","toNode":"t6","toSide":"top"},
+		{"id":"e4","fromNode":"t5","fromSide":"bottom","toNode":"t6","toSide":"top"},
+		{"id":"e5","fromNode":"t3","fromSide":"bottom","toNode":"t7","toSide":"top"},
+		{"id":"e6","fromNode":"t5","fromSide":"bottom","toNode":"t7","toSide":"top"}
+	]
+}

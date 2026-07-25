@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"d48ee4ea75ee95e0","type":"group","x":-720,"y":-220,"width":1220,"height":740,"label":"Ashen"},
+		{"id":"t3","type":"text","text":"Broad Training\nPrereq: None\nCost: 2","x":-240,"y":-60,"width":260,"height":100},
+		{"id":"t4","type":"text","text":"Disciplined Training\nPrereq: Previous Node\nCost: 2","x":-240,"y":160,"width":260,"height":120},
+		{"id":"t7","type":"text","text":"Driven\nPrereq: Level 3\nCost: 4","x":-680,"y":-60,"width":260,"height":100},
+		{"id":"f81d8f82e0a2eb91","type":"text","text":"Red line between nodes means mutually exclusive","x":-680,"y":-180,"width":260,"height":60,"color":"1"},
+		{"id":"t6","type":"text","text":"Cross Training\nPrereq: Previous Node\nCost: 3","x":0,"y":400,"width":260,"height":100},
+		{"id":"t5","type":"text","text":"Focused Mastery\nPrereq: Previous Node\nCost: 3","x":-460,"y":400,"width":260,"height":100},
+		{"id":"t1","type":"text","text":"Inner Kindling\nPrereq: None\nCost: 3","x":200,"y":-60,"width":260,"height":100},
+		{"id":"t2","type":"text","text":"Ember Restoration\nPrereq: Previous Node\nCost: 3","x":200,"y":160,"width":260,"height":120}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"t1","fromSide":"bottom","toNode":"t2","toSide":"top"},
+		{"id":"e2","fromNode":"t3","fromSide":"bottom","toNode":"t4","toSide":"top"},
+		{"id":"e3","fromNode":"t4","fromSide":"bottom","toNode":"t5","toSide":"top"},
+		{"id":"e4","fromNode":"t4","fromSide":"bottom","toNode":"t6","toSide":"top"},
+		{"id":"cbdeba4d18824ad1","fromNode":"t5","fromSide":"right","toNode":"t6","toSide":"left","toEnd":"none","color":"1","label":"X"}
+	]
+}
