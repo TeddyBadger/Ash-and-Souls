@@ -10,44 +10,44 @@
 ## **Traits**
 ### **Whispers of the Dead**
 
-**Prerequisites: None.  
+Prerequisites: None.  
 Cost: 2 Trait Points.  
-Due to your undead roots, you’ve developed a connection to the spirits that wander among the living. You can see and speak to these ghosts to try and find information or details about the area, enemies or whatever else the situation might call for.**
+Due to your undead roots, you’ve developed a connection to the spirits that wander among the living. You can see and speak to these ghosts to try and find information or details about the area, enemies or whatever else the situation might call for.
 
 ### **Inhuman Body**
 
-**Prerequisites: None.  
+Prerequisites: None.  
 Cost: 2 Trait Points.  
-You’ve learned to ignore the feelings of hunger and thirst. Even though your body didn’t need nutrients, your mind limited you, but no longer. Food and water is completely unnecessary for you now.**
+You’ve learned to ignore the feelings of hunger and thirst. Even though your body didn’t need nutrients, your mind limited you, but no longer. Food and water is completely unnecessary for you now.
 
 ### **Spiritual Link**
 
-**Prerequisites: None.  
+Prerequisites: None.  
 Cost: 2 Trait Points.  
-Any spirits you conjure to fight for you gain an additional 1d4 to any attack they do.**
+Any spirits you conjure to fight for you gain an additional 1d4 to any attack they do.
 
 ### **Summoning Proficiency**
 
-**Prerequisites: None.  
+Prerequisites: None.  
 Cost: 2 Trait Points.  
-Summoning spirits uses 6 less aether.**
+Summoning spirits uses 6 less aether.
 
 ### **Bond Beyond the Dead**
 
-**Prerequisites: Spiritual Link.  
+Prerequisites: Spiritual Link.  
 Cost: 3 Trait Points.  
-The summons you conjure now do an extra 1d6 damage along with gaining an extra eight max vigor.**
+The summons you conjure now do an extra 1d6 damage along with gaining an extra eight max vigor.
 
 ### **Undead Expert**
 
-**Prerequisites: Summoning Proficiency.  
+Prerequisites: Summoning Proficiency.  
 Cost: 2 Trait Points.  
-Using the spirit calling bell has an increased priority by 2, and uses 8 less aether.**
+Using the spirit calling bell has an increased priority by 2, and uses 8 less aether.
 
 ### **Unbreakable Connections**
 
-**Prerequisites: Bond Beyond the Dead, Undead Expert.  
+Prerequisites: Bond Beyond the Dead, Undead Expert.  
 Cost: 3 Trait Points.  
-You can summon two spirits in combat, instead of the usual limit of one.**
+You can summon two spirits in combat, instead of the usual limit of one.
 
 ![[Doll.png]]

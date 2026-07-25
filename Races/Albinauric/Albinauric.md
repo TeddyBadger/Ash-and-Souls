@@ -10,44 +10,44 @@
 ## **Traits**
 ### **Family Heirloom**
 
-**Prerequisites: None.  
+Prerequisites: None.  
 Cost: 2 Trait Points.  
-You start with one memory stone, allowing one extra attunement slot.**
+You start with one memory stone, allowing one extra attunement slot.
 
 ### **Innate Casting**
 
-**Prerequisites: None.  
+Prerequisites: None.  
 Cost: 2 Trait Points.  
-When casting, spells require 3 less aether per cast.**
+When casting, spells require 3 less aether per cast.
 
 ### **Albinauric Rage**
 
-**Prerequisites: None.  
+Prerequisites: None.  
 Cost: 3 Trait Points.  
-You may add 1d6 damage to any spell related attack. This can be done “insight” amount of times per short rest.**
+You may add 1d6 damage to any spell related attack. This can be done “insight” amount of times per short rest.
 
 ### **Dark Moon’s Aid**
 
-**Prerequisites: Family Heirloom.  
+Prerequisites: Family Heirloom.  
 Cost: 2 Trait Points.  
-Each memory stone now grants two spell slots instead of one.**
+Each memory stone now grants two spell slots instead of one.
 
 ### **Casting Expertise**
 
-**Prerequisites: Innate Casting.  
+Prerequisites: Innate Casting.  
 Cost: 3 Trait Points.  
-When casting, spells require 6 less aether per cast.**
+When casting, spells require 6 less aether per cast.
 
 ### **Albinauric Resilience**
 
-**Prerequisites: Albinauric Rage.  
+Prerequisites: Albinauric Rage.  
 Cost: 3 Trait Points.  
-The 1d6 can now be added to anything sorcery related such as Insight checks, attempting to hit an enemy, or even damage. This can be done “insight” amount of times per short rest.**
+The 1d6 can now be added to anything sorcery related such as Insight checks, attempting to hit an enemy, or even damage. This can be done “insight” amount of times per short rest.
 
 ### **True Understanding**
 
-**Prerequisites: Casting Expertise, Dark Moon’s Aid.  
+Prerequisites: Casting Expertise, Dark Moon’s Aid.  
 Cost: 4 Trait Points.  
-Your insight is now capped at 7 instead of 6. This takes 6 trait points to increase from 6 to 7.**
+Your insight is now capped at 7 instead of 6. This takes 6 trait points to increase from 6 to 7.
 
 ![[Albinauric.png]]
