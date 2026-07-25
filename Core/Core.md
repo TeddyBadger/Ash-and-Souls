@@ -1,3 +1,9 @@
+## **System Base**
+
+This system is heavily built on the foundation of another system:
+https://github.com/KaxuTheSheep/ttrpgplayer
+
+---
 ## **Stats**
 
 | **Stat** |   **Formula**   |
