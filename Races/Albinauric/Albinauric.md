@@ -2,11 +2,14 @@
 
 **Formed by the hands of humans in an ancient place known as the Eternal City, using a primordial drop of night-tinged dew. These people have a special awareness of their innate aether, giving them the upper hand in sorcery casting.**
 
+---
 ### **Stats**
 
 | **Vigor** | **Aether** | **Movement** | **Languages**         |
 | --------- | ---------- | ------------ | --------------------- |
 | **10**    | **14**     | **Standard** | **Common  <br>Latin** |
+
+---
 ## **Traits**
 ### **Family Heirloom**
 

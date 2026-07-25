@@ -1,0 +1,7 @@
+## **Overview**
+
+Sorceries are cast using aether, and a conduit that is under the “Staff” category. These require the user to be at a certain level of Insight to be cast, and scale off of Insight too.
+### **Sorcery Types**
+
+- Carian
+- Glintstone
