@@ -7,7 +7,7 @@
 
 | **Vigor** | **Aether** | **Movement** | **Languages**            |
 | --------- | ---------- | ------------ | ------------------------ |
-| **18**    | **6**      | **Standard** | **Common  <br>Draconic** |
+| **16**    | **6**      | **Standard** | **Common  <br>Draconic** |
 
 ---
 ## **Traits**
