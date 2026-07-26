@@ -34,13 +34,13 @@ Shoot forward a spectral light ring which travels to its destination, pauses for
 
 Strike the ground with your staff to unleash a 
 
-|     **Info**     |  **Value**  |
-| :--------------: | :---------: |
-|      Damage      | 1d6 per hit |
-|   Aether Cost    |     12      |
-|     Priority     |     18      |
-| Attunement Slots |      1      |
-| Projectile Speed | 20m / Tick  |
-|  Ticks to Cast   |      1      |
-|   Action Type    |    Full     |
-|  Stat Build-Up   |  5 per hit  |
+|     **Info**     |   **Value**   |
+| :--------------: | :-----------: |
+|      Damage      | 2d8 + Insight |
+|   Aether Cost    |      14       |
+|     Priority     |      12       |
+| Attunement Slots |       1       |
+| Projectile Speed |      N/A      |
+|  Ticks to Cast   |       2       |
+|   Action Type    |     Full      |
+|  Stat Build-Up   | 20 frostbite  |
