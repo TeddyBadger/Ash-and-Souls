@@ -13,6 +13,56 @@ https://github.com/KaxuTheSheep/ttrpgplayer
 | Evasion  |    8 + Grace    |
 
 ---
+## **Movement**
+
+There are three different types of movement: Fast, Standard and Slow. These are shown below:
+
+### **Standard:**
+
+| Movement Type | Priority |       Travel rate per tick       | Action Type |
+| :-----------: | :------: | :------------------------------: | :---------: |
+|     Walk      |    10    |                3m                |    Free     |
+|      Run      |    8     |                8m                |    Full     |
+|     Climb     |    5     |               1.5m               |    Free     |
+|     Swim      |    4     |               1.5m               |    Free     |
+|    Burrow     |    2     |               0.5m               |    Free     |
+|     Crawl     |    7     |                1m                |    Free     |
+|     Jump      |    8     | 1.5( + Might)m<br>1 meter height |    Half     |
+### **Fast:**
+
+| Movement Type | Priority |      Travel rate per tick      | Action Type |
+| :-----------: | :------: | :----------------------------: | :---------: |
+|     Walk      |    12    |               4m               |    Free     |
+|      Run      |    10    |              10m               |    Full     |
+|     Climb     |    8     |               2m               |    Free     |
+|     Swim      |    6     |               2m               |    Free     |
+|    Burrow     |    3     |               1m               |    Free     |
+|     Crawl     |    8     |              1.5m              |    Free     |
+|     Jump      |    10    | 2( + Grace)m<br>1 meter height |    Half     |
+### **Slow:**
+
+| Movement Type | Priority |       Travel rate per tick       | Action Type |
+| :-----------: | :------: | :------------------------------: | :---------: |
+|     Walk      |    9     |                3m                |    Free     |
+|      Run      |    7     |                7m                |    Full     |
+|     Climb     |    4     |                1m                |    Free     |
+|     Swim      |    3     |               1.5m               |    Free     |
+|    Burrow     |    2     |               0.5m               |    Free     |
+|     Crawl     |    6     |               0.5m               |    Free     |
+|     Jump      |    7     | 1( + Might)m<br>0.5 meter height |    Half     |
+
+---
+## **Languages**
+
+All races know common, and most know an extra language too. Ashen ones may pick from any of the languages available. Below is a list of all the languages.
+
+- Common
+- Runic
+- Latin
+- Draconic
+- Cipher
+
+---
 ## **Estus**
 
 **Each player starts with 2 estus flasks. These can be allocated in any chosen way between crimson estus flasks and cerulean estus flasks.**
