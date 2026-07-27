@@ -1,3 +1,8 @@
+### **Overview**
+
+These sorceries were formed by a family of the name of Sylra. Using their studies of the natural glintstones found in the earth, they learned to use the aether in the air to conjure sorceries of the same energy found in the glintstones.
+
+---
 ### **Glintstone Pebble**
 
 You conjure a glintstone pebble that homes towards your target.
@@ -85,7 +90,7 @@ You release an unrelenting beam from your staff that penetrates 18m in a straigh
 |     **Info**     |    **Value**    |
 | :--------------: | :-------------: |
 |      Damage      | 1d10 + Insight  |
-|   Aether Cost    | 18 + 4 per tick |
+|   Aether Cost    | 14 + 8 per tick |
 |     Priority     |       12        |
 | Attunement Slots |        2        |
 | Projectile Speed |   18m / Tick    |

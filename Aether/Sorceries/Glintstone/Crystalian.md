@@ -1,3 +1,8 @@
+### **Overview**
+
+These sorceries are a sub type of the Glintstone sorceries, using the energy from glintstones to form more lethal, crystal-like projectiles. 
+
+---
 ### **Shattering Crystal**
 
 You fire a burst of crystals towards you in a cone of 1m reach.

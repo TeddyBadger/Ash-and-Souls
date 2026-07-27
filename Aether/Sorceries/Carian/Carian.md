@@ -1,3 +1,8 @@
+### **Overview**
+
+These sorceries were formed by the founders of the Carian Academy. Thy focus on turning the natural aether in the air into blades, bows or other weapons.
+
+---
 ### **Magic Glintblade**
 
 You cast a sigil overhead which fires a homing glintblade at a minimum of 2 ticks after the initial sigil creation.

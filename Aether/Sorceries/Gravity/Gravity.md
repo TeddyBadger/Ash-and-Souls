@@ -1,3 +1,8 @@
+### **Overview**
+
+These sorceries were forged by a group of Lords made of stone, given life by a meteor that struck the land of Yarven centuries ago. They use the gravitational aether in the air to manipulate it and cast these sorceries.
+
+---
 ### **Gravity Well**
 
 You cast an orb of gravitational magic and fire it towards your target. If hit, they get pulled a maximum of 10m towards you

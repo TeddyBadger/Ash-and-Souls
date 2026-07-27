@@ -1,3 +1,8 @@
+### **Overview**
+
+These sorceries were originally practiced as hexes in ancient times until a mysterious sage used these hexes to form a method of interacting with the aether of the dead, allowing them to form soul-based spells.
+
+---
 ### **Ancient Death Rancor**
 
 Summons 5 vengeful spirits that fly forward, exploding on contact and causing slight frostbite build up.

@@ -1,3 +1,8 @@
+### **Overview**
+
+These sorceries are a sub type of the Death sorceries: They use the idea of borrowing the aether from the dead, but instead of forming soul-based sorceries, they instead form body-based sorceries, such as nails and bones.
+
+---
 ### **Death Nails**
 
 Summons a magic nail above head that homes towards your target in bursts. It travels 4m with each burst before decaying slightly, causing less damage to be done with each decay. The 3rd decay (12m travelled) breaks the sorcery. 
