@@ -31,13 +31,13 @@ Due to your advanced control of blood, when casting any blood related incantatio
 
 Prerequisites: Blood Affinity.  
 Cost: 3 Trait Points.  
-Any form of of blood incantation you cast now deals an extra 1d8 damage, instead of the 1d6 prior. Also, you gain the ability "Blood Bath", this allows you to disperse into the ground as blood and re-emerge at a location 15m from you, causing a large blood puddle dealing 1d4 damage and 10 bleed build up in a 5m radius from where you emerge.
+Any form of of blood incantation you cast now deals an extra 1d8 damage, instead of the 1d6 prior. Also, you gain the ability "Blood Bath", this allows you to disperse into the ground as blood and re-emerge at a location 12m from you, causing a large blood puddle dealing 1d4 damage and 10 bleed build up in a 4m radius from where you emerge.
 ### **Efficient Bleeding**
 
 Prerequisites: Self Sacrifice.  
 Cost: 3 Trait Points.  
 When using vigor instead of aether for casting blood incantations, the cost to vigor is 80% that of what it was for aether. For example, an incantation that uses 10 aether would cost 8 vigor. This rounds to the nearest integer.
-### **Severe Hemophilia**
+### **Severe Haemophilia**
 
 Prerequisites: Hemophiliac.  
 Cost: 3 Trait Points.  
@@ -47,3 +47,5 @@ The additional bleed build up from the Hemophiliac trait is now 20 instead of 10
 Prerequisites: Efficient Bleeding, Blood Scourge.  
 Cost: 3 Trait Points.  
 Any incantations cast using vigor receive an extra 10 bleed build up.
+
+![[Dynastarian.png]]

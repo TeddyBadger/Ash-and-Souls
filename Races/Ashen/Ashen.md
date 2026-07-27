@@ -15,7 +15,7 @@
 
 Prerequisites: None.  
 Cost: 3 Trait Points.  
-You may gain 4 max vigor until you drop below 20% max vigor. This can be done at the cost of 4 aether and only once per short rest.
+You may gain 8 max vigor until you drop below 20% max vigor. This can be done at the cost of 4 aether and only once per short rest.
 
 ### **Broad Training**
 
@@ -33,7 +33,7 @@ Choose a weapon category. All weapon mastery nodes within that category cost 1 f
 
 Prerequisites: Inner Kindling.  
 Cost: 3 Trait Points.  
-You can kindle the same as before, but it no longer costs 4 aether to do so. This also improve the effect of using embers, increasing the vigor gained to 8 instead of 4.
+You can kindle the same as before, but it no longer costs 4 aether to do so, and the max vigor increase is now 12 instead of 8. This also improve the effect of using embers, increasing the vigor gained to 20 instead of 12.
 
 ### **Focused Mastery**
 

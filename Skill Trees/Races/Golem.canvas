@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"71ecfb6afe3b2281","type":"group","x":-650,"y":-320,"width":1330,"height":640,"label":"Golem"},
+		{"id":"d90c4774f93ee900","type":"text","text":"Stone Skin\nPrereq: None\nCost: 2","x":-620,"y":-40,"width":250,"height":86},
+		{"id":"f0eb72255f3c3234","type":"text","text":"Iron Grasp\nPrereq: Previous Node\nCost: 3","x":-280,"y":-40,"width":250,"height":86},
+		{"id":"7d26c29a767da0b0","type":"text","text":"Brute-Like Strength\nPrereq: None\nCost: 2","x":-280,"y":-260,"width":250,"height":86},
+		{"id":"709a3c3dc1b733b9","type":"text","text":"Earthly Immunity\nPrereq: None\nCost: 3","x":60,"y":-40,"width":250,"height":86},
+		{"id":"8e9cfb4699d5fdff","type":"text","text":"Unyielding Power\nPrereq: Previous Nodes\nCost: 4","x":-280,"y":180,"width":250,"height":86},
+		{"id":"e37dff4d20ce77fe","type":"text","text":"Perfect Aim\nPrereq: Previous Node\nCost: 2","x":400,"y":-40,"width":250,"height":86},
+		{"id":"83dcbcd1b5ce159d","type":"text","text":"Eagle Eye\nPrereq: None\nCost: 2","x":400,"y":-260,"width":250,"height":86}
+	],
+	"edges":[
+		{"id":"236dad749d2ff364","fromNode":"7d26c29a767da0b0","fromSide":"bottom","toNode":"f0eb72255f3c3234","toSide":"top"},
+		{"id":"cedc84f844f3fbb1","fromNode":"83dcbcd1b5ce159d","fromSide":"bottom","toNode":"e37dff4d20ce77fe","toSide":"top"},
+		{"id":"bec9e70775ca4b68","fromNode":"f0eb72255f3c3234","fromSide":"bottom","toNode":"8e9cfb4699d5fdff","toSide":"top"},
+		{"id":"dc4c86e539f60f53","fromNode":"709a3c3dc1b733b9","fromSide":"bottom","toNode":"8e9cfb4699d5fdff","toSide":"top"},
+		{"id":"5ce6f36b2fb15090","fromNode":"d90c4774f93ee900","fromSide":"bottom","toNode":"8e9cfb4699d5fdff","toSide":"top"}
+	]
+}

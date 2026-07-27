@@ -31,7 +31,7 @@ Due to you being made of stone and crystal, you are immune to sleep, poison, sca
 
 Prerequisites: None.  
 Cost: 2 Trait Points.  
-From your many years of wielding a great bow, you have become very adept to using them. You can aim accurately up to 90m.
+From your many years of wielding a great bow, you have become very adept to using them. You can aim accurately up to 30m.
 ### **Iron Grasp**
 
 Prerequisites: Brute-Like Strength.  
@@ -41,9 +41,11 @@ The addition to attacks that have "Might" damage is now 1d6, and any attacks mad
 
 Prerequisites: Eagle Eye.  
 Cost: 2 Trait Points.  
-Your aim gets better and better. You can now aim accurately up to 120m, and any foe that is hit by your arrows within 30m will get knocked back 5m.
+Your aim gets better and better. You can now aim accurately up to 90m, and any foe that is hit by your arrows within 20m will get knocked back 4m.
 ### **Unyielding Power**
 
 Prerequisites: Iron Grasp, Earthly Immunity, Stone Skin.  
 Cost: 4 Trait Points.  
 Your resolve is now capped at 7 instead of 6. This takes 6 trait points to increase from 6 to 7.
+
+![[Golem.png]]

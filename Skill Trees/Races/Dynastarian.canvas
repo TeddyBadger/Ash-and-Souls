@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"9b145945ca2d90c8","type":"group","x":-650,"y":-320,"width":1190,"height":640,"label":"Dynastarian"},
+		{"id":"46e784ca79bb2891","type":"text","text":"Blood Affinity\nPrereq: None\nCost: 2","x":-620,"y":-260,"width":250,"height":86},
+		{"id":"2b18e7cfa8444687","type":"text","text":"Blood Scourge\nPrereq: Previous Node\nCost: 3","x":-620,"y":-40,"width":250,"height":86},
+		{"id":"702d98b19f05c568","type":"text","text":"Efficient Bleeding\nPrereq: Previous Node\nCost: 3","x":-180,"y":-40,"width":250,"height":86},
+		{"id":"b7fe97af97533cbe","type":"text","text":"Self Sacrifice\nPrereq: None\nCost: 3","x":-180,"y":-260,"width":250,"height":86},
+		{"id":"15799236bc7be352","type":"text","text":"Formless One's Blessing\nPrereq: Previous Nodes\nCost: 3","x":-400,"y":180,"width":250,"height":86},
+		{"id":"db0a0cc5c5e23cd0","type":"text","text":"Hemophiliac\nPrereq: None\nCost: 2","x":260,"y":-260,"width":250,"height":86},
+		{"id":"787b5c1d1d4e2bc4","type":"text","text":"Severe Haemophilia\nPrereq: Previous Node\nCost: 3","x":260,"y":-40,"width":250,"height":86}
+	],
+	"edges":[
+		{"id":"1c3d43bb7e821b72","fromNode":"46e784ca79bb2891","fromSide":"bottom","toNode":"2b18e7cfa8444687","toSide":"top"},
+		{"id":"0a6b6bd57af4a0e6","fromNode":"db0a0cc5c5e23cd0","fromSide":"bottom","toNode":"787b5c1d1d4e2bc4","toSide":"top"},
+		{"id":"e0266863c9e4e360","fromNode":"b7fe97af97533cbe","fromSide":"bottom","toNode":"702d98b19f05c568","toSide":"top"},
+		{"id":"915ad3b28cf0a861","fromNode":"2b18e7cfa8444687","fromSide":"bottom","toNode":"15799236bc7be352","toSide":"top"},
+		{"id":"dab74c1a74e39d1e","fromNode":"702d98b19f05c568","fromSide":"bottom","toNode":"15799236bc7be352","toSide":"top"}
+	]
+}

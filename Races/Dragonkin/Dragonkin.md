@@ -51,6 +51,6 @@ You may take a guarding stance using your tail with priority 15, any damage rece
 
 Prerequisites: Elemental Lineage, Quaking Roar.  
 Cost: 4 Trait Points.  
-By focusing your primal energy into your throat, you can unleash a blast of your chosen element, dealing 2d10 damage in a cone shape in front of you. This has priority 14 and has a maximum range of 12m and 70 degrees.
+By focusing your primal energy into your throat, you can unleash a blast of your chosen element, dealing 2d10 damage in a cone shape in front of you. This has priority 14 and has a maximum range of 8m and 70 degrees.
 
 ![[Dragonkin.png]]

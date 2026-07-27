@@ -47,3 +47,5 @@ You may cause a cluster of Aeonian butterflies to release a pulse of rot at the 
 Prerequisites: Putrid Immunity, Harbinger of Rot, Nature's Plague.  
 Cost: 4 Trait Points.  
 Whenever you cause build up of sleep, poison, scarlet rot, madness or death blight, increase the build up amount by 10 + vitality.
+
+![[Aeonian.png]]

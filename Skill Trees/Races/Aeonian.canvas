@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"28a8c1adeef69a4f","type":"group","x":-650,"y":-320,"width":1300,"height":640,"label":"Aeonian"},
+		{"id":"b2e170fc42d00587","type":"text","text":"Natural Resistance\nPrereq: None\nCost: 2","x":-620,"y":-260,"width":250,"height":86},
+		{"id":"3400cb2a55f1d7d7","type":"text","text":"Whispers of Aeonia\nPrereq: None\nCost: 3","x":360,"y":-260,"width":250,"height":86},
+		{"id":"7ca24ff7a8fb4be1","type":"text","text":"Decaying Touch\nPrereq: None\nCost: 2","x":-125,"y":-260,"width":250,"height":86},
+		{"id":"d1e34b8ef6ac7d2e","type":"text","text":"Putrid Immunity\nPrereq: Previous Node\nCost: 3","x":-620,"y":-40,"width":250,"height":86},
+		{"id":"65fc893224f7f727","type":"text","text":"Harbinger of Rot\nPrereq: Previous Node\nCost: 3","x":-125,"y":-40,"width":250,"height":86},
+		{"id":"f72446f2c708c167","type":"text","text":"Nature's Plague\nPrereq: Previous Node\nCost: 3","x":360,"y":-40,"width":250,"height":86},
+		{"id":"cd63eaaa62b4348b","type":"text","text":"Potent Affliction\nPrereq: Previous Nodes\nCost: 4","x":-125,"y":180,"width":250,"height":86}
+	],
+	"edges":[
+		{"id":"8a72badcc91e9fb1","fromNode":"b2e170fc42d00587","fromSide":"bottom","toNode":"d1e34b8ef6ac7d2e","toSide":"top"},
+		{"id":"f8e24393c894fc08","fromNode":"7ca24ff7a8fb4be1","fromSide":"bottom","toNode":"65fc893224f7f727","toSide":"top"},
+		{"id":"b783b4c2c6e3afea","fromNode":"3400cb2a55f1d7d7","fromSide":"bottom","toNode":"f72446f2c708c167","toSide":"top"},
+		{"id":"907694558904d161","fromNode":"f72446f2c708c167","fromSide":"bottom","toNode":"cd63eaaa62b4348b","toSide":"top"},
+		{"id":"2f696708a5158d1d","fromNode":"65fc893224f7f727","fromSide":"bottom","toNode":"cd63eaaa62b4348b","toSide":"top"},
+		{"id":"6a9b7e92a851227b","fromNode":"d1e34b8ef6ac7d2e","fromSide":"bottom","toNode":"cd63eaaa62b4348b","toSide":"top"}
+	]
+}

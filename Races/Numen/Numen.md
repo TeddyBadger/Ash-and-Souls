@@ -16,7 +16,7 @@
 
 Prerequisites: None.  
 Cost: 2 Trait Points.  
-Your light and nimble body has prepared you for the worst. You gain +2 to your evasion and you can perform a backstep: this has priority 17 and makes you jump back 10m in 1 tick.
+Your light and nimble body has prepared you for the worst. You gain +2 to your evasion and you can perform a backstep: this has priority 17 and makes you jump back 2m in 1 tick.
 
 ### **Natural Stealth**
 
