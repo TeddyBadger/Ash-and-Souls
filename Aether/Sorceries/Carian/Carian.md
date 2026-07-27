@@ -10,7 +10,7 @@ You cast a sigil overhead which fires a homing glintblade at a minimum of 2 tick
 | Attunement Slots |       1       |
 | Projectile Speed |  15m / Tick   |
 |  Ticks to Cast   |       1       |
-|   Action Type    |     Full      |
+|   Action Type    |     Half      |
 |  Stat Build-Up   |      N/A      |
 
 ---
