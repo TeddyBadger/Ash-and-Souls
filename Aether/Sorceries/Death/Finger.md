@@ -9,7 +9,7 @@ Summons a magic nail above head that homes towards your target in bursts. It tra
 
 |     **Info**     |      **Value**      |
 | :--------------: | :-----------------: |
-|      Damage      | 1d10, 8, 4 +Insight |
+|      Damage      | 1d8, 6, 4 + Insight |
 |   Aether Cost    |          8          |
 |     Priority     |         18          |
 | Attunement Slots |          1          |

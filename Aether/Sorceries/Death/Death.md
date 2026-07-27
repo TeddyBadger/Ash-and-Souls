@@ -21,18 +21,18 @@ Summons 5 vengeful spirits that fly forward, exploding on contact and causing sl
 ---
 ### **Rings of Spectral Light**
 
-Shoot forward a spectral light ring which travels to its destination, pauses for a moment and then returns to you. It takes 1 tick to reach a maximum of 12m away, stays there for 1 tick and returns in 1 tick.
+Shoot forward a spectral light ring which travels to its destination, pauses for a moment and then returns to you. It takes 1 tick to reach a maximum of 12m away, stays there for 1 tick and returns in 1 tick. This penetrates and damages any enemies in it's path.
 
-|     **Info**     |  **Value**  |
-| :--------------: | :---------: |
-|      Damage      | 1d6 per hit |
-|   Aether Cost    |     12      |
-|     Priority     |     18      |
-| Attunement Slots |      1      |
-| Projectile Speed | 12m / Tick  |
-|  Ticks to Cast   |      1      |
-|   Action Type    |    Full     |
-|  Stat Build-Up   |  5 per hit  |
+|     **Info**     |      **Value**      |
+| :--------------: | :-----------------: |
+|      Damage      |     1d6 per hit     |
+|   Aether Cost    |         12          |
+|     Priority     |         18          |
+| Attunement Slots |          1          |
+| Projectile Speed |     12m / Tick      |
+|  Ticks to Cast   |          1          |
+|   Action Type    |        Full         |
+|  Stat Build-Up   | 6 Frostbite per hit |
 
 ---
 ### **Explosive Ghostflame**
