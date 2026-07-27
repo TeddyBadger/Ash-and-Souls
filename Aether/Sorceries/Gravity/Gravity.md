@@ -5,15 +5,15 @@ These sorceries were forged by a group of Lords with stone skin, created by a me
 ---
 ### **Gravity Well**
 
-You cast an orb of gravitational magic and fire it towards your target. If hit, they get pulled a maximum of 10m towards you
+You cast an orb of gravitational magic and fire it anywhere within 10m of you. The following tick after reaching it's desired location, it pulls any enemy within 6m of it towards the centre.
 
 |     **Info**     | **Value**  |
 | :--------------: | :--------: |
 |      Damage      |  Insight   |
 |   Aether Cost    |     10     |
-|     Priority     |     17     |
+|     Priority     |     16     |
 | Attunement Slots |     1      |
-| Projectile Speed | 15m / Tick |
+| Projectile Speed | 10m / Tick |
 |  Ticks to Cast   |     1      |
 |   Action Type    |    Half    |
 |  Stat Build-Up   |    N/A     |
@@ -58,7 +58,7 @@ You slam down your staff and conjure a rain of meteors towards your target. This
 |     **Info**     |       **Value**        |
 | :--------------: | :--------------------: |
 |      Damage      | 1d6 + Insight per rock |
-|   Aether Cost    |    20 + 6 per tick     |
+|   Aether Cost    |    22 + 4 per tick     |
 |     Priority     |           12           |
 | Attunement Slots |           1            |
 | Projectile Speed |       5m / Tick        |

@@ -83,6 +83,22 @@ Cast a small glowing orb above your head that lights the surrounding area (10m r
 |  Stat Build-Up   |    N/A    |
 
 ---
+### **Hush**
+
+Masks all sound of the user and those within a 2m radius of them.
+
+|     **Info**     | **Value** |
+| :--------------: | :-------: |
+|      Damage      |    N/A    |
+|   Aether Cost    |     6     |
+|     Priority     |    18     |
+| Attunement Slots |     1     |
+| Projectile Speed |    N/A    |
+|  Ticks to Cast   |     1     |
+|   Action Type    |   Half    |
+|  Stat Build-Up   |    N/A    |
+
+---
 ### **Comet Azure**
 
 You release an unrelenting beam from your staff that penetrates 18m in a straight line. Can be held to prolong the beam, but cannot change direction during the release.

@@ -5,7 +5,7 @@ These sorceries were created by the Clay-Men that dwell underground. They use wa
 ---
 ### **Oracle Bubbles**
 
-You conjure 8 small bubbles in front of you that pop on contact. They travel 2m and if they don't make contact, they will form a pool of radius 2m and remain there for "Insight" amount of turns.
+You conjure 8 small bubbles in front of you that pop on contact. They travel 2m and if they don't make contact, they will merge into a larger bubble and remain there for "Insight" amount of turns, or until popped.
 
 |     **Info**     |     **Value**      |
 | :--------------: | :----------------: |
@@ -21,7 +21,7 @@ You conjure 8 small bubbles in front of you that pop on contact. They travel 2m 
 ---
 ### **Great Oracular Bubble**
 
-You conjure a large bubble that drifts towards your target and pops on contact. It travels 3m and if it doesn't make contact, it will remain there for "Insight" amount of turns.
+You conjure a large bubble that drifts towards your target and pops on contact. It travels 3m and if it doesn't make contact, it will remain there for "Insight" amount of turns, or until popped.
 
 |     **Info**     |   **Value**   |
 | :--------------: | :-----------: |
@@ -37,7 +37,7 @@ You conjure a large bubble that drifts towards your target and pops on contact. 
 ---
 ### **Oracular Defence**
 
-You conjure a giant bubble around you to reduce the damage of the next physical attack taken, or deflect the next projectile attack taken. It pops and heals you 1d4 + Insight when broken, and reduces physical attack damage taken by 25%: This new value rounds to the nearest integer. The bubble remains on you until broken or "Integer" amount of turns.
+You conjure a giant bubble around you to reduce the damage of the next physical attack taken, or deflect the next projectile attack taken. It pops and heals you 1d4 + Insight when broken, and reduces physical attack damage taken by 25%: This new value rounds to the nearest integer. The bubble remains on you until broken or "Insight" amount of turns.
 
 |     **Info**     | **Value** |
 | :--------------: | :-------: |

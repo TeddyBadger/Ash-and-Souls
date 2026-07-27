@@ -33,3 +33,52 @@ When casting this, you instantly disappear and reappear at a new location within
 |  Ticks to Cast   |     1     |
 |   Action Type    |   Half    |
 |  Stat Build-Up   |    N/A    |
+
+---
+### **Bone Armour**
+
+Conjure bones around your body under your clothes and armour to increase your DR by 2 temporarily. This lasts "Insight" amount of turns.
+
+|     **Info**     | **Value** |
+| :--------------: | :-------: |
+|      Damage      |    N/A    |
+|   Aether Cost    |    16     |
+|     Priority     |    16     |
+| Attunement Slots |     1     |
+| Projectile Speed |    N/A    |
+|  Ticks to Cast   |     1     |
+|   Action Type    |   Half    |
+|  Stat Build-Up   |    N/A    |
+
+---
+### **Osteo-Thorns**
+
+Create a field of bone spikes within 8m of you that has radius of 3m, this lasts "Insight" amount of turns. Enemies will take damage for every tick they spend moving within this zone. If they choose to move normally, they will take 2d4 damage per tick, or 1d4 damage per tick if they choose to move at half their movement speed.
+
+|     **Info**     |     **Value**      |
+| :--------------: | :----------------: |
+|      Damage      | 1d4 / 2d4 per tick |
+|   Aether Cost    |         17         |
+|     Priority     |         15         |
+| Attunement Slots |         1          |
+| Projectile Speed |        N/A         |
+|  Ticks to Cast   |         1          |
+|   Action Type    |        Full        |
+|  Stat Build-Up   |        N/A         |
+
+---
+
+### **Death Prison**
+
+You grab an enemy and conjure bones to restrain their body. This gives the enemy paralysis, however they can use a full action to make a Might save of DN 15. This lasts "Insight" amount of turns, or until the enemy breaks free.
+
+|     **Info**     |   **Value**   |
+| :--------------: | :-----------: |
+|      Damage      | 1d4 + Insight |
+|   Aether Cost    |      20       |
+|     Priority     |      13       |
+| Attunement Slots |       1       |
+| Projectile Speed |      N/A      |
+|  Ticks to Cast   |       1       |
+|   Action Type    |     Full      |
+|  Stat Build-Up   |      N/A      |
