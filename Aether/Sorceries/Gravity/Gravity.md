@@ -1,0 +1,62 @@
+### **Gravity Well**
+
+You cast an orb of gravitational magic and fire it towards your target. If hit, they get pulled a maximum of 10m towards you
+
+|     **Info**     | **Value**  |
+| :--------------: | :--------: |
+|      Damage      |  Insight   |
+|   Aether Cost    |     10     |
+|     Priority     |     17     |
+| Attunement Slots |     1      |
+| Projectile Speed | 15m / Tick |
+|  Ticks to Cast   |     1      |
+|   Action Type    |    Half    |
+|  Stat Build-Up   |    N/A     |
+
+---
+### **Rock Sling**
+
+By using gravitational magic, you lift two large rocks from the earth and catapult them towards your target.
+
+|     **Info**     |       **Value**        |
+| :--------------: | :--------------------: |
+|      Damage      | 1d6 + Insight per rock |
+|   Aether Cost    |           16           |
+|     Priority     |           15           |
+| Attunement Slots |           1            |
+| Projectile Speed |       5m / Tick        |
+|  Ticks to Cast   |           2            |
+|   Action Type    |          Full          |
+|  Stat Build-Up   |          N/A           |
+
+---
+### **Blades of Stones**
+
+Using gravitational magic, raise stone spikes up from the ground underneath your target. The range of this is 10m.
+
+|     **Info**     |   **Value**    |
+| :--------------: | :------------: |
+|      Damage      | 1d10 + Insight |
+|   Aether Cost    |       14       |
+|     Priority     |       10       |
+| Attunement Slots |       1        |
+| Projectile Speed |      N/A       |
+|  Ticks to Cast   |       3        |
+|   Action Type    |      Full      |
+|  Stat Build-Up   |      N/A       |
+
+---
+### **Meteoric Rain**
+
+You slam down your staff and conjure a rain of meteors towards your target. This can be held to keep conjuring more meteors. 3 meteors at first, then 2 every 2 ticks held for.
+
+|     **Info**     |       **Value**        |
+| :--------------: | :--------------------: |
+|      Damage      | 1d6 + Insight per rock |
+|   Aether Cost    |    20 + 6 per tick     |
+|     Priority     |           12           |
+| Attunement Slots |           1            |
+| Projectile Speed |       5m / Tick        |
+|  Ticks to Cast   |           2            |
+|   Action Type    |          Full          |
+|  Stat Build-Up   |          N/A           |
