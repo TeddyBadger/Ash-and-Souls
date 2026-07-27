@@ -1,6 +1,6 @@
 ### **Overview**
 
-These sorceries were formed by the founders of the Carian Academy. Thy focus on turning the natural aether in the air into blades, bows or other weapons.
+These sorceries were formed by the founders of the Carian Academy. They focus on turning the natural aether in the air into blades, bows or other weapons.
 
 ---
 ### **Magic Glintblade**
