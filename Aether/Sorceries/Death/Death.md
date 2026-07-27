@@ -8,7 +8,7 @@ Summons 5 vengeful spirits that fly forward, exploding on contact and causing sl
 |   Aether Cost    |         10          |
 |     Priority     |         16          |
 | Attunement Slots |          1          |
-| Projectile Speed |     15m / Tick      |
+| Projectile Speed |      8m / Tick      |
 |  Ticks to Cast   |          1          |
 |   Action Type    |        Full         |
 |  Stat Build-Up   | 4 frostbite per hit |
@@ -16,7 +16,7 @@ Summons 5 vengeful spirits that fly forward, exploding on contact and causing sl
 ---
 ### **Rings of Spectral Light**
 
-Shoot forward a spectral light ring which travels to its destination, pauses for a moment and then returns to you. It takes 1 tick to reach a maximum of 20m away, stays there for 1 tick and returns in 1 tick.
+Shoot forward a spectral light ring which travels to its destination, pauses for a moment and then returns to you. It takes 1 tick to reach a maximum of 12m away, stays there for 1 tick and returns in 1 tick.
 
 |     **Info**     |  **Value**  |
 | :--------------: | :---------: |
@@ -24,7 +24,7 @@ Shoot forward a spectral light ring which travels to its destination, pauses for
 |   Aether Cost    |     12      |
 |     Priority     |     18      |
 | Attunement Slots |      1      |
-| Projectile Speed | 20m / Tick  |
+| Projectile Speed | 12m / Tick  |
 |  Ticks to Cast   |      1      |
 |   Action Type    |    Full     |
 |  Stat Build-Up   |  5 per hit  |
@@ -32,7 +32,7 @@ Shoot forward a spectral light ring which travels to its destination, pauses for
 ---
 ### **Explosive Ghostflame**
 
-Strike the ground with your staff to unleash a 
+Strike the ground with your staff to unleash an explosion of ghost flames around you in a 2m radius.
 
 |     **Info**     |   **Value**   |
 | :--------------: | :-----------: |

@@ -2,16 +2,16 @@
 
 You conjure a glintstone pebble that homes towards your target.
 
-|     **Info**     | **Value**  |
-| :--------------: | :--------: |
-|      Damage      |  Insight   |
-|   Aether Cost    |     4      |
-|     Priority     |     18     |
-| Attunement Slots |     1      |
-| Projectile Speed | 15m / Tick |
-|  Ticks to Cast   |     1      |
-|   Action Type    |    Half    |
-|  Stat Build-Up   |    N/A     |
+|     **Info**     | **Value** |
+| :--------------: | :-------: |
+|      Damage      |  Insight  |
+|   Aether Cost    |     4     |
+|     Priority     |    18     |
+| Attunement Slots |     1     |
+| Projectile Speed | 6m / Tick |
+|  Ticks to Cast   |     1     |
+|   Action Type    |   Half    |
+|  Stat Build-Up   |    N/A    |
 
 ---
 ### **Comet**
@@ -24,7 +24,7 @@ You conjure a glintstone comet that homes towards your target.
 |   Aether Cost    |      12       |
 |     Priority     |      14       |
 | Attunement Slots |       1       |
-| Projectile Speed |  15m / Tick   |
+| Projectile Speed |   5m / Tick   |
 |  Ticks to Cast   |       1       |
 |   Action Type    |     Full      |
 |  Stat Build-Up   |      N/A      |
@@ -40,7 +40,7 @@ Fires 6 shooting stars that home towards your target.
 |   Aether Cost    |      18      |
 |     Priority     |      12      |
 | Attunement Slots |      1       |
-| Projectile Speed |  20m / Tick  |
+| Projectile Speed |  8m / Tick   |
 |  Ticks to Cast   |      1       |
 |   Action Type    |     Full     |
 |  Stat Build-Up   |     N/A      |
@@ -80,7 +80,7 @@ Cast a small glowing orb above your head that lights the surrounding area (10m r
 ---
 ### **Comet Azure**
 
-You release an unrelenting beam from your staff that penetrates 40m in a straight line. Can be held to prolong the beam, but cannot change direction during the release.
+You release an unrelenting beam from your staff that penetrates 18m in a straight line. Can be held to prolong the beam, but cannot change direction during the release.
 
 |     **Info**     |    **Value**    |
 | :--------------: | :-------------: |
@@ -88,8 +88,8 @@ You release an unrelenting beam from your staff that penetrates 40m in a straigh
 |   Aether Cost    | 18 + 4 per tick |
 |     Priority     |       12        |
 | Attunement Slots |        2        |
-| Projectile Speed |   20m / Tick    |
-|  Ticks to Cast   |        2        |
+| Projectile Speed |   18m / Tick    |
+|  Ticks to Cast   |        4        |
 |   Action Type    |      Full       |
 |  Stat Build-Up   |       N/A       |
 
@@ -104,7 +104,7 @@ Fires 6, 9, 12 dark shooting stars that home towards your target. This can be ch
 |   Aether Cost    |       20, 24, 28       |
 |     Priority     |           18           |
 | Attunement Slots |           2            |
-| Projectile Speed |       20m / Tick       |
+| Projectile Speed |       8m / Tick        |
 |  Ticks to Cast   |        2, 4, 6         |
 |   Action Type    |          Full          |
 |  Stat Build-Up   |          N/A           |
@@ -112,7 +112,7 @@ Fires 6, 9, 12 dark shooting stars that home towards your target. This can be ch
 ---
 ### **Founding Rain of Stars**
 
-Casts a cloud above head that rains stars in a set area of 4m radius.
+Casts a cloud above head that rains stars in a set area of 3m radius.
 
 |     **Info**     |       **Value**        |
 | :--------------: | :--------------------: |
@@ -121,6 +121,6 @@ Casts a cloud above head that rains stars in a set area of 4m radius.
 |     Priority     |           14           |
 | Attunement Slots |           2            |
 | Projectile Speed |          N/A           |
-|  Ticks to Cast   |           3            |
+|  Ticks to Cast   |           2            |
 |   Action Type    |          Full          |
 |  Stat Build-Up   |          N/A           |

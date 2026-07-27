@@ -8,7 +8,7 @@ You cast a sigil overhead which fires a homing glintblade at a minimum of 2 tick
 |   Aether Cost    |       4       |
 |     Priority     |      15       |
 | Attunement Slots |       1       |
-| Projectile Speed |  15m / Tick   |
+| Projectile Speed |   8m / Tick   |
 |  Ticks to Cast   |       1       |
 |   Action Type    |     Half      |
 |  Stat Build-Up   |      N/A      |
@@ -24,7 +24,7 @@ You cast an overhead arch of 7 glintdaggers which home into the nearest enemy 2 
 |   Aether Cost    |      6       |
 |     Priority     |      14      |
 | Attunement Slots |      1       |
-| Projectile Speed |  20m / Tick  |
+| Projectile Speed |  8m / Tick   |
 |  Ticks to Cast   |      1       |
 |   Action Type    |     Full     |
 |  Stat Build-Up   |     N/A      |
@@ -40,7 +40,7 @@ You cast an overhead arch of 3 great glintblades which home into the nearest ene
 |   Aether Cost    |      7       |
 |     Priority     |      14      |
 | Attunement Slots |      1       |
-| Projectile Speed |  10m / Tick  |
+| Projectile Speed |  4m / Tick   |
 |  Ticks to Cast   |      1       |
 |   Action Type    |     Full     |
 |  Stat Build-Up   |     N/A      |
@@ -72,7 +72,7 @@ By holding your staff in front of you, you can grab the magic strings and draw i
 |   Aether Cost    |       10       |
 |     Priority     |       13       |
 | Attunement Slots |       1        |
-| Projectile Speed |   20m / Tick   |
+| Projectile Speed |   14m / Tick   |
 |  Ticks to Cast   |       3        |
 |   Action Type    |      Full      |
 |  Stat Build-Up   |      N/A       |
@@ -88,7 +88,7 @@ By holding your staff in front of you, you can grab the magic strings and draw i
 |   Aether Cost    |       24       |
 |     Priority     |       12       |
 | Attunement Slots |       2        |
-| Projectile Speed |   20m / Tick   |
+| Projectile Speed |   14m / Tick   |
 |  Ticks to Cast   |       4        |
 |   Action Type    |      Full      |
 |  Stat Build-Up   |      N/A       |
@@ -96,7 +96,7 @@ By holding your staff in front of you, you can grab the magic strings and draw i
 ---
 ### **Veyra's Full Moon**
 
-You curl up into a ball in the air, forming a magical moon around you. When released, it homes onto your target until contact, where it causes a frost explosion.
+You curl up into a ball in the air, forming a magical moon around you. When released, it homes onto your target until contact, where it causes a frost explosion of 2m radius.
 
 |     **Info**     |   **Value**    |
 | :--------------: | :------------: |
@@ -104,7 +104,7 @@ You curl up into a ball in the air, forming a magical moon around you. When rele
 |   Aether Cost    |       20       |
 |     Priority     |       16       |
 | Attunement Slots |       1        |
-| Projectile Speed |   10m / Tick   |
+| Projectile Speed |   6m / Tick    |
 |  Ticks to Cast   |       6        |
 |   Action Type    |      Full      |
 |  Stat Build-Up   |  35 Frostbite  |
