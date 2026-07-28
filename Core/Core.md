@@ -102,22 +102,23 @@ Aether: 1d6 + insight
 ---
 ## **Unique Items**
 
-|        **Name**        |                                   **Use**                                   |                 **Stat Cost**                  |
-| :--------------------: | :-------------------------------------------------------------------------: | :--------------------------------------------: |
-|          Soul          |             Can be used to acquire souls. Not lost upon “death”             |                      N/A                       |
-|         Staff          |                        Used to cast only sorceries.                         |  Equal to aether cost of spell being casted.   |
-|          Seal          |                       Used to cast only incantations.                       |  Equal to aether cost of incant being casted.  |
-|  Spirit Calling Bell   |                        Used to summon spirit ashes.                         | Equal to aether cost of spirit being summoned. |
-|      Memory Stone      | Allows the wearer to gain an additional attunement slot. Can wear multiple. |                      N/A                       |
-|    Starlight Shards    |               Use to regain lost aether, restores 10 aether.                |                      N/A                       |
-|     Stonesword Key     |       Used as a consumable key to open certain locked doors or seals.       |                      N/A                       |
-|         Ember          |             Increases max vigor by 20% until you become downed.             |                      N/A                       |
-|     Warming Stones     |   Places down a stone that heals 4 vigor per turn for 3 turns. 2m radius.   |                      N/A                       |
-|    Divine Blessing     |         Fully restores vigor and cures all current status build up.         |                      N/A                       |
-|    Hidden Blessing     |                           Fully restores aether.                            |                      N/A                       |
-|    Smithing Stones     |            Increase the level of your standard weapon up to +25.            |                      N/A                       |
-| Somber Smithing Stones |             Increase the level of your unique weapon up to +10.             |                      N/A                       |
-|    Ghost Glovewort     |          Increase the level of your usable spirit ashes up to +10.          |                      N/A                       |
+|         **Name**         |                                   **Use**                                   |                 **Stat Cost**                  |
+| :----------------------: | :-------------------------------------------------------------------------: | :--------------------------------------------: |
+|           Soul           |             Can be used to acquire souls. Not lost upon “death”             |                      N/A                       |
+|          Staff           |                        Used to cast only sorceries.                         |  Equal to aether cost of spell being casted.   |
+|           Seal           |                       Used to cast only incantations.                       |  Equal to aether cost of incant being casted.  |
+|   Spirit Calling Bell    |                        Used to summon spirit ashes.                         | Equal to aether cost of spirit being summoned. |
+|       Memory Stone       | Allows the wearer to gain an additional attunement slot. Can wear multiple. |                      N/A                       |
+|     Starlight Shards     |               Use to regain lost aether, restores 10 aether.                |                      N/A                       |
+|      Stonesword Key      |       Used as a consumable key to open certain locked doors or seals.       |                      N/A                       |
+|          Ember           |             Increases max vigor by 20% until you become downed.             |                      N/A                       |
+|      Warming Stones      |   Places down a stone that heals 4 vigor per turn for 3 turns. 2m radius.   |                      N/A                       |
+|     Divine Blessing      |         Fully restores vigor and cures all current status build up.         |                      N/A                       |
+|     Hidden Blessing      |                           Fully restores aether.                            |                      N/A                       |
+|     Smithing Stones      |            Increase the level of your standard weapon up to +25.            |                      N/A                       |
+|  Somber Smithing Stones  |             Increase the level of your unique weapon up to +10.             |                      N/A                       |
+| Polished Smithing Stones |               Increases the level of an upgradable talisman.                |                      N/A                       |
+|     Ghost Glovewort      |          Increase the level of your usable spirit ashes up to +10.          |                      N/A                       |
 
 ---
 ## **Status Build Up**
