@@ -72,13 +72,15 @@ All races know common, and most know an extra language too. Ashen ones may pick 
 
 | **Flask Level** | **Amount Restored** |
 | :-------------: | :-----------------: |
-|      base       |          4          |
-|       +1        |          7          |
-|       +2        |         10          |
-|       +3        |         13          |
-|       +4        |         16          |
-|       +5        |         18          |
-|       +6        |         20          |
+|      base       |          7          |
+|       +1        |         11          |
+|       +2        |         15          |
+|       +3        |         20          |
+|       +4        |         25          |
+|       +5        |         30          |
+|       +6        |         34          |
+|       +7        |         36          |
+
 
 ---
 ## **Levels**  
@@ -94,18 +96,40 @@ All races know common, and most know an extra language too. Ashen ones may pick 
 **These shards can be found by slaying renowned enemies named “shard bearers”, the great beasts that rule the ruined lands of Yarven.
 
 **Each level acquired will increase the following stats by:  
-Vigor: 1d8 + vitality  
+Vigor: 1d10 + vitality  
 Aether: 1d6 + insight
 
 ---
 ## **Unique Items**
 
-|      **Name**       |                                   **Use**                                   |                 **Stat Cost**                  |
-| :-----------------: | :-------------------------------------------------------------------------: | :--------------------------------------------: |
-|        Soul         |             Can be used to acquire souls. Not lost upon “death”             |                      N/A                       |
-|        Staff        |                        Used to cast only sorceries.                         |  Equal to aether cost of spell being casted.   |
-|        Seal         |                       Used to cast only incantations.                       |  Equal to aether cost of incant being casted.  |
-| Spirit Calling Bell |                        Used to summon spirit ashes.                         | Equal to aether cost of spirit being summoned. |
-|    Memory Stone     | Allows the wearer to gain an additional attunement slot. Can wear multiple. |                      N/A                       |
-|  Starlight Shards   |               Use to regain lost aether, restores 10 aether.                |                      N/A                       |
-|   Stonesword Key    |       Used as a consumable key to open certain locked doors or seals.       |                      N/A                       |
+|        **Name**        |                                   **Use**                                   |                 **Stat Cost**                  |
+| :--------------------: | :-------------------------------------------------------------------------: | :--------------------------------------------: |
+|          Soul          |             Can be used to acquire souls. Not lost upon “death”             |                      N/A                       |
+|         Staff          |                        Used to cast only sorceries.                         |  Equal to aether cost of spell being casted.   |
+|          Seal          |                       Used to cast only incantations.                       |  Equal to aether cost of incant being casted.  |
+|  Spirit Calling Bell   |                        Used to summon spirit ashes.                         | Equal to aether cost of spirit being summoned. |
+|      Memory Stone      | Allows the wearer to gain an additional attunement slot. Can wear multiple. |                      N/A                       |
+|    Starlight Shards    |               Use to regain lost aether, restores 10 aether.                |                      N/A                       |
+|     Stonesword Key     |       Used as a consumable key to open certain locked doors or seals.       |                      N/A                       |
+|         Ember          |             Increases max vigor by 20% until you become downed.             |                      N/A                       |
+|     Warming Stones     |   Places down a stone that heals 4 vigor per turn for 3 turns. 2m radius.   |                      N/A                       |
+|    Divine Blessing     |         Fully restores vigor and cures all current status build up.         |                      N/A                       |
+|    Hidden Blessing     |                           Fully restores aether.                            |                      N/A                       |
+|    Smithing Stones     |            Increase the level of your standard weapon up to +25.            |                      N/A                       |
+| Somber Smithing Stones |             Increase the level of your unique weapon up to +10.             |                      N/A                       |
+|    Ghost Glovewort     |          Increase the level of your usable spirit ashes up to +10.          |                      N/A                       |
+
+---
+## **Status Build Up**
+
+There are 7 status effects in the game to be wary about. Everyone will have a resistance bar for each effect, and when the build up reaches your max resistance, you will suffer the effect of the status you have been afflicted by.
+
+|  **Name**   |                                                       **Result**                                                        |
+| :---------: | :---------------------------------------------------------------------------------------------------------------------: |
+|    Bleed    |                                     Take damage equal to 15% of your maximum vigor.                                     |
+|  Frostbite  | Take damage equal to 10% of your maximum vigor and temporarily reduce your evasion by 2 for "vitality" amount of turns. |
+|    Sleep    |                                             Used to cast only incantations.                                             |
+|   Poison    |                                              Used to summon spirit ashes.                                               |
+| Scarlet Rot |                       Allows the wearer to gain an additional attunement slot. Can wear multiple.                       |
+|   Madness   |                                     Use to regain lost aether, restores 10 aether.                                      |
+| Deathblight |                             Used as a consumable key to open certain locked doors or seals.                             |

@@ -9,7 +9,7 @@ You cast a sigil overhead which fires a homing glintblade at a minimum of 2 tick
 
 |     **Info**     |   **Value**   |
 | :--------------: | :-----------: |
-|      Damage      | 1d4 + Insight |
+|      Damage      | 1d6 + Insight |
 |   Aether Cost    |       4       |
 |     Priority     |      15       |
 | Attunement Slots |       1       |
@@ -39,16 +39,16 @@ You cast an overhead arch of 7 glintdaggers which home into the nearest enemy 2 
 
 You cast an overhead arch of 3 great glintblades which home into the nearest enemy 2 ticks after being cast.
 
-|     **Info**     |  **Value**  |
-| :--------------: | :---------: |
-|      Damage      | 3 per sword |
-|   Aether Cost    |      7      |
-|     Priority     |     14      |
-| Attunement Slots |      1      |
-| Projectile Speed |  4m / Tick  |
-|  Ticks to Cast   |      1      |
-|   Action Type    |    Full     |
-|  Stat Build-Up   |     N/A     |
+|     **Info**     |   **Value**   |
+| :--------------: | :-----------: |
+|      Damage      | 1d4 per sword |
+|   Aether Cost    |       7       |
+|     Priority     |      14       |
+| Attunement Slots |       1       |
+| Projectile Speed |   4m / Tick   |
+|  Ticks to Cast   |       1       |
+|   Action Type    |     Full      |
+|  Stat Build-Up   |      N/A      |
 
 ---
 ### **Carian Slicer**

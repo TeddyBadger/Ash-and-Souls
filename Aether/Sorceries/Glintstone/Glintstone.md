@@ -9,7 +9,7 @@ You conjure a glintstone pebble that homes towards your target.
 
 |     **Info**     | **Value** |
 | :--------------: | :-------: |
-|      Damage      |  Insight  |
+|      Damage      |    1d4    |
 |   Aether Cost    |     4     |
 |     Priority     |    18     |
 | Attunement Slots |     1     |
