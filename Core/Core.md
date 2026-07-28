@@ -135,3 +135,8 @@ There are 7 status effects in the game to be wary about. Everyone will have a re
 |   Madness   |            Take damage equal to 15% of your maximum vigor and reduce your aether by 10% of your max aether. You become briefly stunned for the following 4 ticks.            |
 | Deathblight |                                Thorns of pure death sprout from your core, growing outwards and immediately putting you into the dying state.                                |
 When afflicting enemies with these effects, they will suffer the same result as you would. However, once recovered from these effects, their resistance to it will double. For example, an enemy with 150 bleed resistance that has been bled will then get 300 bleed resistance. This will repeat until the enemy has been felled.
+
+---
+## **Jump Attacks**
+
+By spending a half action to jump before using an attack, you can increase
