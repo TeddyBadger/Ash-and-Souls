@@ -123,7 +123,7 @@ Aether: 1d6 + insight
 ---
 ## **Status Build Up**
 
-There are 7 status effects in the game to be wary about. Everyone will have a resistance bar for each effect, and when the build up reaches your max resistance, you will suffer the effect of the status you have been afflicted by.
+There are 7 status effects in the game to be wary about. Everyone will have a resistance value for each effect, and when the build up value reaches your resistance value, you will suffer the effect of the status you have been afflicted by. Once you have recovered from this effect, your current build up returns back to 0.
 
 |  **Name**   |                                                                                  **Result**                                                                                  |
 | :---------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |

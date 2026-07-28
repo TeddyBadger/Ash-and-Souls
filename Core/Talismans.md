@@ -1,4 +1,4 @@
-Everybody will have 3 talisman slots. Talismans can be found or bought from merchants as you explore the land of Yarven. Certain talismans will have stronger versions of themselves of the same name along with a +n: This indicates the level of the talisman. Any percentage increase rounds to the nearest integer.
+Everybody will have 3 talisman slots. Talismans can be found or bought from merchants as you explore the land of Yarven. Certain talismans will have stronger versions of themselves of the same name along with a +n: This indicates the level of the talisman. Any percentage increase rounds to the nearest integer. Any talisman that increases your attributes
 
 Using Polished Smithing Stones, you can upgrade the talismans that have stronger versions. You cannot use a weaker version of a talisman you already have equipped.
 
@@ -15,13 +15,13 @@ Using Polished Smithing Stones, you can upgrade the talismans that have stronger
 |      Stargazer's Heirloom      |         Increases your Insight stat by 1 as long you have this equipped          |    N/A    |                      N/A                      |
 |     Worshipper's Heirloom      |         Increases your Resolve stat by 1 as long you have this equipped          |    N/A    |                      N/A                      |
 |       Outer-God Heirloom       |         Increases your Presence stat by 1 as long you have this equipped         |    N/A    |                      N/A                      |
-|  Dragoncrest Shield Talisman   |                        Decreases physical damage recieved                        |     2     |                 4% / 6% / 8%                  |
-|      Pearldrake Talisman       |                       Decreases elemental damage recieved                        |     2     |                 2% / 4% / 6%                  |
+|  Dragoncrest Shield Talisman   |      Decreases the damage received by physical attacks by this flat amount       |     2     |                   2 / 4 / 8                   |
+|      Pearldrake Talisman       |      Decreases the damage received by elemental attacks by this flat amount      |     2     |                   2 / 4 / 6                   |
 |     Immunizing Horn Charm      |                   Increases poison and scarlet rot resistance                    |     2     |                 40 / 80 / 120                 |
 |      Stalwart Horn Charm       |                     Increase frostbite and bleed resistance                      |     2     |                 40 / 80 / 120                 |
 |     Clarifying Horn Charm      |                      Increases madness and sleep resistance                      |     2     |                 40 / 80 / 120                 |
 |       Undying Horn Charm       |                         Increases deathblight resistance                         |     2     |                 40 / 80 / 120                 |
-|         Claw Talisman          |                             Enhances jumping attacks                             |    N/A    |                      15%                      |
+|         Claw Talisman          |                             Enhances jumping attacks                             |    N/A    |                      12%                      |
 |   Two-Handed Sword Talisman    |                  Enhances attacks while two handing your weapon                  |    N/A    |                      8%                       |
 |     Arrow's Sting Talisman     |                     Raises attack power of arrows and bolts                      |    N/A    |                      8%                       |
 |     Graven-School Talisman     |                         Raises attack power of sorceries                         |     1     |                    3% / 6%                    |
