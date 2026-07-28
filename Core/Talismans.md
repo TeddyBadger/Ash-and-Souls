@@ -29,8 +29,8 @@ Using Polished Smithing Stones, you can upgrade the talismans that have stronger
 |    Primal Glintstone Blade     |              Sorceries consume less aether at the cost of max vigor              |    N/A    |    -20% aether cost<br>-12% vigor    |
 |       Moon of Nokstella        |                            Increases attunement slots                            |    N/A    |                  2                   |
 |      Perfumer's Talisman       |                     Raises attack power of perfumer bottles                      |    N/A    |                 +1d8                 |
-|     Carian Filigreed Crest     |                            Skills consume less aether                            |    N/A    |           -10% aether cost           |
-|       Warrior Jar Shard        |                          Raises attack power of skills                           |     1     |             +1d6 / +1d8              |
+|     Carian Filigreed Crest     |                         Weapon Arts consume less aether                          |    N/A    |           -10% aether cost           |
+|       Warrior Jar Shard        |                        Raises attack power of Weapon Arts                        |     1     |             +1d6 / +1d8              |
 |      Magic Scorpion Charm      |    Increases all Magic damage done at the cost of taking more physical damage    |    N/A    |   +1d8 magic dmg<br>-3 physical DR   |
 |    Lightning Scorpion Charm    |  Increases all Lightning damage done at the cost of taking more physical damage  |    N/A    | +1d8 lightning dmg<br>-3 physical DR |
 |      Fire Scorpion Charm       |    Increases all Fire damage done at the cost of taking more physical damage     |    N/A    |   +1d8 fire dmg<br>-3 physical DR    |

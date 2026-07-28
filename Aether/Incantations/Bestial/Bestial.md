@@ -1,6 +1,6 @@
 ### **Overview**
 
-These incantations harness the power of primal beasts
+These incantations harness the power of primal beasts, focusing on robustness and delivering heavy physical damage.
 
 ---
 ### **Magic Glintblade**

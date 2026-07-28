@@ -1,6 +1,6 @@
 ## **Overview**
 
-Sorceries are cast using aether, and a conduit that is under the “Staff” category. These require the user to be at a certain level of Insight to be cast, and scale off of Insight too.
+Sorceries are cast using aether, and a conduit that is under the “Staff” category. These require the user to be at a certain level of Insight to be cast, and scale off of Insight too. The damage type for all sorceries is Magic.
 
 Note: Aether costs and damage may be tweaked at a later date if needed due to balancing.
 

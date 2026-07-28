@@ -139,4 +139,4 @@ When afflicting enemies with these effects, they will suffer the same result as 
 ---
 ## **Jump Attacks**
 
-By spending a half action to jump before using an attack, you can increase
+By spending a half action to jump before using an attack, you can increase the damage you deal by a further 1d6. 
