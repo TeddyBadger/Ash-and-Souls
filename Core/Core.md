@@ -124,12 +124,13 @@ Aether: 1d6 + insight
 
 There are 7 status effects in the game to be wary about. Everyone will have a resistance bar for each effect, and when the build up reaches your max resistance, you will suffer the effect of the status you have been afflicted by.
 
-|  **Name**   |                                                       **Result**                                                        |
-| :---------: | :---------------------------------------------------------------------------------------------------------------------: |
-|    Bleed    |                                     Take damage equal to 15% of your maximum vigor.                                     |
-|  Frostbite  | Take damage equal to 10% of your maximum vigor and temporarily reduce your evasion by 2 for "vitality" amount of turns. |
-|    Sleep    |                                             Used to cast only incantations.                                             |
-|   Poison    |                                              Used to summon spirit ashes.                                               |
-| Scarlet Rot |                       Allows the wearer to gain an additional attunement slot. Can wear multiple.                       |
-|   Madness   |                                     Use to regain lost aether, restores 10 aether.                                      |
-| Deathblight |                             Used as a consumable key to open certain locked doors or seals.                             |
+|  **Name**   |                                                                                  **Result**                                                                                  |
+| :---------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|    Bleed    |                                                               Take damage equal to 15% of your maximum vigor.                                                                |
+|  Frostbite  |                                     Take damage equal to 10% of your maximum vigor and temporarily reduce your evasion by 2 for 3 turns.                                     |
+|    Sleep    |                                    Reduces your aether by 10% of your max aether and become completely asleep for 2 turns, or until hit.                                     |
+|   Poison    | Take damage equal to 5% of your max vigor for 8 turns. This damage is applied the moment you are afflicted by poison, and then again at tick 20 for the following 7 rounds.  |
+| Scarlet Rot | Take damage equal to 10% of your max vigor for 8 turns. This damage is applied the moment you are afflicted by poison, and then again at tick 20 for the following 7 rounds. |
+|   Madness   |            Take damage equal to 15% of your maximum vigor and reduce your aether by 10% of your max aether. You become briefly stunned for the following 4 ticks.            |
+| Deathblight |                                Thorns of pure death sprout from your core, growing outwards and immediately putting you into the dying state.                                |
+When afflicting enemies with these effects, they will suffer the same result as you would. However, once recovered from these effects, their resistance to it will double. For example, an enemy with 150 bleed resistance that has been bled will then get 300 bleed resistance. This will repeat until the enemy has been felled.
