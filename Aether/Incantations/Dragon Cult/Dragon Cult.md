@@ -93,3 +93,77 @@ Call down lightning to strike you or an ally, charging the target's body to prov
 |   Damage Type    |   Lightning   |
 |   Poise Damage   |      N/A      |
 |    Buff Type     |     Body      |
+
+---
+### **Kaelthor's Glaive**
+
+Form a giant red lightning glaive and swing it in front of you. This hit will cause damage and then further damage in a cone in front of you of 2m range, as red lightning strikes the area one tick after the initial swing.
+
+|     **Info**     |           **Value**            |
+| :--------------: | :----------------------------: |
+|      Damage      | 1d8 + Resolve<br>1d6 + Resolve |
+|   Aether Cost    |               19               |
+|     Priority     |               16               |
+| Attunement Slots |               1                |
+| Projectile Speed |           2m / Tick            |
+|  Ticks to Cast   |               1                |
+|   Action Type    |              Full              |
+|  Stat Build-Up   |              N/A               |
+|   Damage Type    |           Lightning            |
+|   Poise Damage   |              N/A               |
+
+
+---
+### **Ancient Dragon's Lightning Spear**
+
+Form a giant red lightning spear that you stab into the ground, causing a burst of damage in a 1m radius from the point of impact. The following tick, lightning strikes all across the ground in a 2m radius from the point of impact.
+
+|     **Info**     |            **Value**            |
+| :--------------: | :-----------------------------: |
+|      Damage      | 1d12 + Resolve<br>1d8 + Resolve |
+|   Aether Cost    |               25                |
+|     Priority     |               16                |
+| Attunement Slots |                1                |
+| Projectile Speed |               N/A               |
+|  Ticks to Cast   |                2                |
+|   Action Type    |              Full               |
+|  Stat Build-Up   |               N/A               |
+|   Damage Type    |            Lightning            |
+|   Poise Damage   |               N/A               |
+
+---
+### **Ancient Dragon's Lightning Strike**
+
+Call down a flurry of red lightning to strike the ground repeatedly in a 2m radius, anywhere 6m from you. This causes damage repeatedly over the 3 ticks after being cast. This can be charged for 2 extra ticks to increase the effective range to 8m from you and a 3m radius of effect.
+
+|     **Info**     |         **Value**         |
+| :--------------: | :-----------------------: |
+|      Damage      | 1d8 + Resolve<br>per tick |
+|   Aether Cost    |            27             |
+|     Priority     |            16             |
+| Attunement Slots |             1             |
+| Projectile Speed |            N/A            |
+|  Ticks to Cast   |          2 or 4           |
+|   Action Type    |           Full            |
+|  Stat Build-Up   |            N/A            |
+|   Damage Type    |         Lightning         |
+|   Poise Damage   |            N/A            |
+
+---
+### **Dragonbolt of Krylvan**
+
+Call down red lightning to strike you, giving you and anyone within a 2m radius of you a buff: This increases everyone's DR by 3 for the "caster's Resolve" amount of turn.
+
+|     **Info**     | **Value** |
+| :--------------: | :-------: |
+|      Damage      |    N/A    |
+|   Aether Cost    |    26     |
+|     Priority     |    17     |
+| Attunement Slots |     1     |
+| Projectile Speed |    N/A    |
+|  Ticks to Cast   |     2     |
+|   Action Type    |   Full    |
+|  Stat Build-Up   |    N/A    |
+|   Damage Type    |    N/A    |
+|   Poise Damage   |    N/A    |
+|    Buff Type     |   Aura    |
