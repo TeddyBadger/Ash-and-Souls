@@ -59,35 +59,35 @@ Hurl a boulder towards your target. The range is 3m.
 ---
 ### **Divine Beast Tornado**
 
-From the end of your staff, you conjure a magical blade that can be used like a sword. It takes a half action to enable and disable this state, and a full action to swing.
+Swing your arms to create gusts of winds, forming a tornado that you send forward. It travels 6m before dissipating and does damage to all foes hit along its path.
 
-|     **Info**     |   **Value**   |
-| :--------------: | :-----------: |
-|      Damage      | 1d6 + Insight |
-|   Aether Cost    |       6       |
-|     Priority     |      18       |
-| Attunement Slots |       1       |
-| Projectile Speed |      N/A      |
-|  Ticks to Cast   |       1       |
-|   Action Type    |      N/A      |
-|  Stat Build-Up   |      N/A      |
-|   Damage Type    |   Physical    |
-|   Poise Damage   |      35       |
+|     **Info**     |  **Value**   |
+| :--------------: | :----------: |
+|      Damage      | 1d8 +Resolve |
+|   Aether Cost    |      20      |
+|     Priority     |      14      |
+| Attunement Slots |      1       |
+| Projectile Speed |     N/A      |
+|  Ticks to Cast   |      2       |
+|   Action Type    |     Full     |
+|  Stat Build-Up   |     N/A      |
+|   Damage Type    |   Physical   |
+|   Poise Damage   |      45      |
 
 ---
-### **Carian Greatbow**
+### **Divine Bird Feathers**
 
-By holding your staff in front of you, you can grab the magic strings and draw it back, forming a large aetherial greatbow. When released, it shoots a homing magic arrow.
+Spread your arms like wings and release a flurry of feathers. This releases 2 upon cast and can be held to continuously release a feather every following tick. Maximum range of this is 8m.
 
-|     **Info**     |   **Value**    |
-| :--------------: | :------------: |
-|      Damage      | 1d10 + Insight |
-|   Aether Cost    |       10       |
-|     Priority     |       13       |
-| Attunement Slots |       1        |
-| Projectile Speed |   14m / Tick   |
-|  Ticks to Cast   |       3        |
-|   Action Type    |      Full      |
-|  Stat Build-Up   |      N/A       |
-|   Damage Type    |    Physical    |
-|   Poise Damage   |       35       |
+|     **Info**     |    **Value**    |
+| :--------------: | :-------------: |
+|      Damage      | 1d4 per feather |
+|   Aether Cost    |     14 + 3      |
+|     Priority     |       12        |
+| Attunement Slots |        1        |
+| Projectile Speed |    8m / Tick    |
+|  Ticks to Cast   |        2        |
+|   Action Type    |      Full       |
+|  Stat Build-Up   |       N/A       |
+|   Damage Type    |    Physical     |
+|   Poise Damage   |       N/A       |

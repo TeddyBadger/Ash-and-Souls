@@ -63,7 +63,7 @@ From the end of your staff, you conjure a magical blade that can be used like a 
 | Attunement Slots |       1       |
 | Projectile Speed |      N/A      |
 |  Ticks to Cast   |       1       |
-|   Action Type    |      N/A      |
+|   Action Type    |     Half      |
 |  Stat Build-Up   |      N/A      |
 
 ---
