@@ -40,115 +40,114 @@ Conjure a ball of flames in your hand and hurl it at your foe. The range of this
 
 
 ---
-> Everything from here is work in progress
 ### **Whirl, O Flame!**
 
-Summon a bolt of lightning to strike your target from above. This strike occurs 2 ticks after being cast and can target anywhere within a 8m radius of the caster.
+Conjure a whip of flames to sweep the area in front of you. This deals damage over a 2m ranged cone in front of you.
 
-|     **Info**     |   **Value**   |
-| :--------------: | :-----------: |
-|      Damage      | 1d8 + Resolve |
-|   Aether Cost    |      17       |
-|     Priority     |      14       |
-| Attunement Slots |       1       |
-| Projectile Speed |      N/A      |
-|  Ticks to Cast   |       1       |
-|   Action Type    |     Full      |
-|  Stat Build-Up   |      N/A      |
-|   Damage Type    |   Lightning   |
-|   Poise Damage   |      N/A      |
+|     **Info**     |   **Value**    |
+| :--------------: | :------------: |
+|      Damage      | 1d10 + Resolve |
+|   Aether Cost    |       20       |
+|     Priority     |       14       |
+| Attunement Slots |       1        |
+| Projectile Speed |      N/A       |
+|  Ticks to Cast   |       1        |
+|   Action Type    |      Full      |
+|  Stat Build-Up   |      N/A       |
+|   Damage Type    |      Fire      |
+|   Poise Damage   |      N/A       |
 
 ---
 ### **Flame of the Fell God**
 
-Conjure a spear of lightning in your hand and hurl it at your target. This can be held for a further 2 ticks to cause a bolt of lightning to strike where the spear lands the following tick from colliding. The maximum range on this projectile is 8m.
+Create a giant ball of fire that slowly floats towards your target, exploding on contact or 4 ticks after creation: whichever happens first. This does damage on contact and even more damage when exploding. This explosion has a radius of 2m. 
 
-|     **Info**     |             **Value**              |
-| :--------------: | :--------------------------------: |
-|      Damage      | 1d10 + Resolve<br>(+1d4 + Resolve) |
-|   Aether Cost    |                 21                 |
-|     Priority     |                 17                 |
-| Attunement Slots |                 1                  |
-| Projectile Speed |             4m / Tick              |
-|  Ticks to Cast   |               1 or 3               |
-|   Action Type    |                Full                |
-|  Stat Build-Up   |                N/A                 |
-|   Damage Type    |             Lightning              |
-|   Poise Damage   |                N/A                 |
+|     **Info**     |                     **Value**                     |
+| :--------------: | :-----------------------------------------------: |
+|      Damage      | 1d4 + Resolve contact<br>1d12 + Resolve explosion |
+|   Aether Cost    |                        27                         |
+|     Priority     |                        16                         |
+| Attunement Slots |                         1                         |
+| Projectile Speed |                     2m / Tick                     |
+|  Ticks to Cast   |                         2                         |
+|   Action Type    |                       Full                        |
+|  Stat Build-Up   |                        N/A                        |
+|   Damage Type    |                       Fire                        |
+|   Poise Damage   |                        30                         |
 
 ---
 ### **Burn, O Flame!**
 
-Call down lightning to strike you or an ally, charging the target's body to provide buffs: this applied red lightning to the target's weapon and also gives them 2 temporary DR to all forms of damage. The red lightning allows the user to add an extra 1d4 and Resolve to their attacks with the enhanced weapon. This lasts "Resolve" amount of turns. To buff an ally with this effect, you must use 2 more ticks to cast.
-
-|     **Info**     |   **Value**   |
-| :--------------: | :-----------: |
-|      Damage      | 1d4 + Resolve |
-|   Aether Cost    |      23       |
-|     Priority     |      16       |
-| Attunement Slots |       1       |
-| Projectile Speed |      N/A      |
-|  Ticks to Cast   |    2 or 4     |
-|   Action Type    |     Full      |
-|  Stat Build-Up   |      N/A      |
-|   Damage Type    |   Lightning   |
-|   Poise Damage   |      N/A      |
-
-
----
-### **Flame, Cleanse Me**
-
-Form a giant red lightning glaive and swing it in front of you. This hit will cause damage and then further damage in a cone in front of you of 2m range, as red lightning strikes the area one tick after the initial swing.
-
-|     **Info**     |           **Value**            |
-| :--------------: | :----------------------------: |
-|      Damage      | 1d8 + Resolve<br>1d6 + Resolve |
-|   Aether Cost    |               19               |
-|     Priority     |               16               |
-| Attunement Slots |               1                |
-| Projectile Speed |           2m / Tick            |
-|  Ticks to Cast   |               1                |
-|   Action Type    |              Full              |
-|  Stat Build-Up   |              N/A               |
-|   Damage Type    |           Lightning            |
-|   Poise Damage   |              N/A               |
-|    Buff Type     |              Body              |
-
-
----
-### **Flame, Grant Me Strength**
-
-Form a giant red lightning spear that you stab into the ground, causing a burst of damage in a 1m radius from the point of impact. The following tick, lightning strikes all across the ground in a 2m radius from the point of impact.
-
-|     **Info**     |            **Value**            |
-| :--------------: | :-----------------------------: |
-|      Damage      | 1d12 + Resolve<br>1d8 + Resolve |
-|   Aether Cost    |               25                |
-|     Priority     |               16                |
-| Attunement Slots |                1                |
-| Projectile Speed |               N/A               |
-|  Ticks to Cast   |                2                |
-|   Action Type    |              Full               |
-|  Stat Build-Up   |               N/A               |
-|   Damage Type    |            Lightning            |
-|   Poise Damage   |               N/A               |
-|    Buff Type     |              Body               |
-
----
-### **Flame, Protect Me**
-
-Call down a flurry of red lightning to strike the ground repeatedly in a 2m radius, anywhere 6m from you. This causes damage repeatedly over the 3 ticks after being cast. This can be charged for 2 extra ticks to increase the effective range to 8m from you and a 3m radius of effect.
+Strike the ground with your seal to create pillars of fire to shoot up from the ground in a 3m radius from you. This lasts 3 ticks or 5 ticks depending on how long you charge the incantation.
 
 |     **Info**     |         **Value**         |
 | :--------------: | :-----------------------: |
-|      Damage      | 1d8 + Resolve<br>per tick |
-|   Aether Cost    |            27             |
-|     Priority     |            16             |
+|      Damage      | 1d4 + Resolve<br>per tick |
+|   Aether Cost    |            19             |
+|     Priority     |            17             |
 | Attunement Slots |             1             |
 | Projectile Speed |            N/A            |
 |  Ticks to Cast   |          2 or 4           |
 |   Action Type    |           Full            |
 |  Stat Build-Up   |            N/A            |
-|   Damage Type    |         Lightning         |
+|   Damage Type    |           Fire            |
 |   Poise Damage   |            N/A            |
-|    Buff Type     |           Body            |
+
+
+---
+### **Flame, Cleanse Me**
+
+Conjure a ball of fire in your fist and press it into your chest or an allies chest to grant a buff: alleviates current build up of Poison, Scarlet Rot and Frostbite. This also cures these effects if they have already occurred. To do this to someone else, you must charge for an extra 2 ticks.
+
+|     **Info**     | **Value** |
+| :--------------: | :-------: |
+|      Damage      |    N/A    |
+|   Aether Cost    |    13     |
+|     Priority     |    15     |
+| Attunement Slots |     1     |
+| Projectile Speed |    N/A    |
+|  Ticks to Cast   |  1 or 3   |
+|   Action Type    |   Full    |
+|  Stat Build-Up   |    N/A    |
+|   Damage Type    |    N/A    |
+|   Poise Damage   |    N/A    |
+|    Buff Type     |   Body    |
+
+
+---
+### **Flame, Grant Me Strength**
+
+Conjure a ball of fire in your fist and press it into your chest or an allies chest to grant a buff: increase any physical and fire damage dealt by an extra 1d6 for 2 rounds. To do this to someone else, you must charge for an extra 2 ticks.
+
+|     **Info**     | **Value** |
+| :--------------: | :-------: |
+|      Damage      |    N/A    |
+|   Aether Cost    |    19     |
+|     Priority     |    15     |
+| Attunement Slots |     1     |
+| Projectile Speed |    N/A    |
+|  Ticks to Cast   |  1 or 3   |
+|   Action Type    |   Full    |
+|  Stat Build-Up   |    N/A    |
+|   Damage Type    |    N/A    |
+|   Poise Damage   |    N/A    |
+|    Buff Type     |   Body    |
+
+---
+### **Flame, Protect Me**
+
+Conjure a ball of fire in your fist and press it into your chest or an allies chest to grant a buff: increase your fire DR by 3. This lasts for 3 rounds. To do this to someone else, you must charge for an extra 2 ticks.
+
+|     **Info**     | **Value** |
+| :--------------: | :-------: |
+|      Damage      |    N/A    |
+|   Aether Cost    |    17     |
+|     Priority     |    15     |
+| Attunement Slots |     1     |
+| Projectile Speed |    N/A    |
+|  Ticks to Cast   |  1 or 3   |
+|   Action Type    |   Full    |
+|  Stat Build-Up   |    N/A    |
+|   Damage Type    |    N/A    |
+|   Poise Damage   |    N/A    |
+|    Buff Type     |   Body    |
