@@ -133,7 +133,7 @@ Fires 6, 9, 12 dark shooting stars that home towards your target. This can be ch
 ---
 ### **Founding Rain of Stars**
 
-Casts a cloud above head that rains stars in a set area of 3m radius.
+Casts a cloud above head that rains stars in a set area of 3m radius. This lasts for "Insight" amount of ticks. This can be done anywhere 6m from you.
 
 |     **Info**     |       **Value**        |
 | :--------------: | :--------------------: |

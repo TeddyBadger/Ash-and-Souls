@@ -14,6 +14,7 @@ These are the different types of Incantations and their sub types:
 - Frenzy
 - Dragon Cult
 - Golden Order
+   - Crucible
 - Blood Oath
 - Bestial
 - Lucerna
