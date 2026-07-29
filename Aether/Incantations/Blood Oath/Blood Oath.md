@@ -77,7 +77,7 @@ You conjure a small swarm of bloodflies that home towards your target, tracking 
 ---
 ### **Formless One's Blades**
 
-Lunge forward 2m and slash three times in front of you. Each slash does damage and bleed build up. It takes a tick to lunge and another tick to slash three times.
+Lunge forward 2m and slash three times in front of you, causing a slash of bloodflame in front of you. Each slash does damage and bleed build up. It takes a tick to lunge and another tick to slash three times.
 
 |     **Info**     |         **Value**          |
 | :--------------: | :------------------------: |
