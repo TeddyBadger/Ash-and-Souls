@@ -140,3 +140,24 @@ When afflicting enemies with these effects, they will suffer the same result as 
 ## **Jump Attacks**
 
 By spending a half action to jump before using an attack, you can increase the damage you deal by a further 1d6. 
+
+---
+## **Poise**
+
+Everyone will have a poise value, similar to that of status effects. When being hit with certain attacks, typically melee weapons and some incantations, you will recieve poise build up. Once this build up reaches your poise value, you will be stunned for 8 ticks from the tick you got stunned. This applies to enemies as well the same way as it does you.
+
+If you are quick enough and in direct range, you can use a reaction to "Repost" the enemy, dealing large damage in a single strike. Once a Repost is carried out, the staggered enemy will no longer be stunned. Moreover, any damage they receive while stunned will half the stagger time to 4, and so on. In short, hitting an enemy twice while they are stunned will let them get back on their feet. 
+
+Below are the values for each Critical Type, of which every weapon will have and will determine the damage done from a Repost.
+
+| Critical Damage Type | **Damage Dealt** |
+| :------------------: | :--------------: |
+|         High         |       15%        |
+|        Medium        |       10%        |
+|         Low          |        5%        |
+|    Insignificant     |        2%        |
+
+---
+## **Buff Types**
+
+There are two separate types of buffs. These consist of Body buffs, and Aura buffs. Body buffs are applied to only one individual at a time, whereas Aura buffs tend to be applied in an area, effecting everyone in range. One of each type of buff can be applied at the same time, but two different Body buffs cannot be used simultaneously.
