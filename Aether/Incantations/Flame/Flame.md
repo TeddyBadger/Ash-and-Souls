@@ -93,7 +93,6 @@ Strike the ground with your seal to create pillars of fire to shoot up from the 
 |   Damage Type    |           Fire            |
 |   Poise Damage   |            N/A            |
 
-
 ---
 ### **Flame, Cleanse Me**
 

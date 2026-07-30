@@ -38,7 +38,6 @@ Conjure a ball of messmerfire that grows in size as you raise into the air. The 
 |   Damage Type    |                         Fire                         |
 |   Poise Damage   |                          40                          |
 
-
 ---
 ### **Rain of Fire**
 
