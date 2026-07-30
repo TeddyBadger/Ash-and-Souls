@@ -7,7 +7,7 @@
 
 | **Vigor** | **Aether** | **Movement** | **Languages**             |
 | --------- | ---------- | ------------ | ------------------------- |
-| **16**    | **8**      | **Standard** | **Common  <br>One Other** |
+| **18**    | **10**     | **Standard** | **Common  <br>One Other** |
 
 ---
 ## **Traits**

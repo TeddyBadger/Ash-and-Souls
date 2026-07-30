@@ -65,21 +65,21 @@ All races know common, and most know an extra language too. Ashen ones may pick 
 ---
 ## **Estus**
 
-**Each player starts with 2 estus flasks. These can be allocated in any chosen way between crimson estus flasks and cerulean estus flasks.**
+**Each player starts with 3 estus flasks. These can be allocated in any chosen way between crimson estus flasks and cerulean estus flasks.**
 **The former restores vigor and the latter restores aether.**
   
 **These can be upgraded throughout your adventures with estus shards to increase the capacity held, or undead bone shards to increase the amount restored when used.**
 
 | **Flask Level** | **Amount Restored** |
 | :-------------: | :-----------------: |
-|      base       |          7          |
-|       +1        |         11          |
-|       +2        |         15          |
-|       +3        |         20          |
-|       +4        |         25          |
-|       +5        |         30          |
-|       +6        |         34          |
-|       +7        |         36          |
+|      base       |          9          |
+|       +1        |         13          |
+|       +2        |         17          |
+|       +3        |         22          |
+|       +4        |         27          |
+|       +5        |         32          |
+|       +6        |         36          |
+|       +7        |         38          |
 
 
 ---

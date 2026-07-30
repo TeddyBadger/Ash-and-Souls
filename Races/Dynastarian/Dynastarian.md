@@ -7,7 +7,7 @@
 
 | **Vigor** | **Aether** | **Movement** | **Languages**         |
 | --------- | ---------- | ------------ | --------------------- |
-| **12**    | **8**      | **Standard** | **Common  <br>Latin** |
+| **14**    | **10**     | **Standard** | **Common  <br>Latin** |
 
 ---
 ## **Traits**

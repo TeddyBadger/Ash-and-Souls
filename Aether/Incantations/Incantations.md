@@ -10,11 +10,11 @@ Note: Aether costs and damage may be tweaked at a later date if needed due to ba
 These are the different types of Incantations and their sub types:
 - Flame
    - Messmer's Flame
-   - Godslayer
 - Frenzy
 - Dragon Cult
 - Golden Order
    - Crucible
+   - Medeor
 - Blood Oath
 - Bestial
 - Lucerna

@@ -7,7 +7,7 @@
 
 | **Vigor** | **Aether** | **Movement** | **Languages**          |
 | --------- | ---------- | ------------ | ---------------------- |
-| **14**    | **6**      | **Slow**     | **Common  <br>Cipher** |
+| **16**    | **6**      | **Slow**     | **Common  <br>Cipher** |
 
 ---
 ## **Traits**

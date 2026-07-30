@@ -7,7 +7,7 @@
 
 | **Vigor** | **Aether** | **Movement** | **Languages**         |
 | --------- | ---------- | ------------ | --------------------- |
-| **10**    | **10**     | **Standard** | **Common  <br>Runic** |
+| **12**    | **14**     | **Standard** | **Common  <br>Runic** |
 
 ---
 ## **Traits**

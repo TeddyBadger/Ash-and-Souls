@@ -113,7 +113,6 @@ Conjure a ball of fire in your fist and press it into your chest or an allies ch
 |   Poise Damage   |    N/A    |
 |    Buff Type     |   Body    |
 
-
 ---
 ### **Flame, Grant Me Strength**
 
