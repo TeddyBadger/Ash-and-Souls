@@ -5,9 +5,9 @@
 ---
 ### **Stats**
 
-| **Vigor** | **Aether** | **Movement** | **Languages**             |
-| --------- | ---------- | ------------ | ------------------------- |
-| **18**    | **10**     | **Standard** | **Common  <br>One Other** |
+| **Vigor** | **Aether** | **Movement** |       **Languages**       | **Poise Value** |
+| :-------: | :--------: | :----------: | :-----------------------: | :-------------: |
+|  **18**   |   **10**   | **Standard** | **Common  <br>One Other** |       150       |
 
 ---
 ## **Traits**

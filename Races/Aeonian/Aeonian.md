@@ -5,9 +5,9 @@
 ---
 ### **Stats**
 
-| **Vigor** | **Aether** | **Movement** | **Languages**         |
-| --------- | ---------- | ------------ | --------------------- |
-| **12**    | **14**     | **Standard** | **Common  <br>Runic** |
+| **Vigor** | **Aether** | **Movement** |     **Languages**     | **Poise Value** |
+| :-------: | :--------: | :----------: | :-------------------: | :-------------: |
+|  **12**   |   **14**   | **Standard** | **Common  <br>Runic** |       100       |
 
 ---
 ## **Traits**

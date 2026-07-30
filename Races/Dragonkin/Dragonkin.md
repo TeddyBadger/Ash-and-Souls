@@ -5,9 +5,9 @@
 ---
 ### **Stats**
 
-| **Vigor** | **Aether** | **Movement** | **Languages**            |
-| --------- | ---------- | ------------ | ------------------------ |
-| **16**    | **8**      | **Standard** | **Common  <br>Draconic** |
+| **Vigor** | **Aether** | **Movement** |      **Languages**       | **Poise Value** |
+| :-------: | :--------: | :----------: | :----------------------: | :-------------: |
+|  **16**   |   **8**    | **Standard** | **Common  <br>Draconic** |       150       |
 
 ---
 ## **Traits**
