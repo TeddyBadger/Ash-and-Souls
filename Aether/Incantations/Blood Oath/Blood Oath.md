@@ -91,3 +91,75 @@ Lunge forward 2m and slash three times in front of you, causing a slash of blood
 |  Stat Build-Up   |   20 Bleed<br>per slash    |
 |   Damage Type    |            Fire            |
 |   Poise Damage   |            N/A             |
+
+---
+### **Bleed Needles**
+
+Place a drop of blood in the air, anywhere 8m from you, this is a half action. This remains here for 2 rounds and can be activated any time with another half action. You may activate multiple blood drops in one tick. Once activated, it explodes, firing many needles made of blood in a 2m radius from where the drop was placed.
+
+|     **Info**     |   **Value**   |
+| :--------------: | :-----------: |
+|      Damage      | 1d4 + Resolve |
+|   Aether Cost    |      15       |
+|     Priority     |      17       |
+| Attunement Slots |       1       |
+| Projectile Speed |   2m / Tick   |
+|  Ticks to Cast   |       1       |
+|   Action Type    |     Half      |
+|  Stat Build-Up   |   30 Bleed    |
+|   Damage Type    |   Physical    |
+|   Poise Damage   |      15       |
+
+---
+### **Blood Drill**
+
+You form a giant pointed drill made of blood, spinning it quickly and shooting it forwards, dealing damage and bleed build up to anyone in its path, penetrating foes. This projectile is 3m wide and has a maximum range of 8m.
+
+|     **Info**     |   **Value**   |
+| :--------------: | :-----------: |
+|      Damage      | 1d8 + Resolve |
+|   Aether Cost    |      23       |
+|     Priority     |      16       |
+| Attunement Slots |       1       |
+| Projectile Speed |   4m / Tick   |
+|  Ticks to Cast   |       1       |
+|   Action Type    |     Full      |
+|  Stat Build-Up   |   20 Bleed    |
+|   Damage Type    |   Physical    |
+|   Poise Damage   |      20       |
+
+---
+### **Bloodflame Slashes**
+
+Strike the ground in front of you creating bloodflame slashes that travel across the ground and forwards. These slashes effect a cone in front of you of maximum range 6m.
+
+|     **Info**     |   **Value**   |
+| :--------------: | :-----------: |
+|      Damage      | 1d6 + Resolve |
+|   Aether Cost    |      16       |
+|     Priority     |      16       |
+| Attunement Slots |       1       |
+| Projectile Speed |   3m / Tick   |
+|  Ticks to Cast   |       1       |
+|   Action Type    |     Full      |
+|  Stat Build-Up   |   25 Bleed    |
+|   Damage Type    |     Fire      |
+|   Poise Damage   |      N/A      |
+
+---
+### **Bloodflame Bats**
+
+Raise up and hold your palm towards your target, firing a barrage of bloodflame bats of maximum range 8m. This can be held to continuously fire more bats every tick.
+
+|     **Info**     |                  **Value**                   |
+| :--------------: | :------------------------------------------: |
+|      Damage      | 2d6 + Resolve to start<br>2d4 per tick after |
+|   Aether Cost    |               24  + 8 per tick               |
+|     Priority     |                      13                      |
+| Attunement Slots |                      2                       |
+| Projectile Speed |                  8m / Tick                   |
+|  Ticks to Cast   |                      2                       |
+|   Action Type    |                     Full                     |
+|  Stat Build-Up   | 20 Bleed to start<br>10 Bleed per tick after |
+|   Damage Type    |                     Fire                     |
+|   Poise Damage   |                     N/A                      |
