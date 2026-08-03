@@ -146,7 +146,7 @@ By spending a half action to jump before using an attack, you can increase the d
 
 Everyone will have a poise value, similar to that of status effects. When being hit with certain attacks, typically melee weapons and some incantations, you will recieve poise build up. Once this build up reaches your poise value, you will be stunned for 8 ticks from the tick you got stunned. This applies to enemies as well the same way as it does you.
 
-If you are quick enough and in direct range, you can use a reaction to "Repost" the enemy, dealing large damage in a single strike. Once a Repost is carried out, the staggered enemy will no longer be stunned. Moreover, any damage they receive while stunned will half the stagger time to 4, and so on. In short, hitting an enemy twice while they are stunned will let them get back on their feet. 
+If you are quick enough and in direct range, you can use a reaction to "Riposte" the enemy, dealing large damage in a single strike. Once a Riposte is carried out, the staggered enemy will no longer be stunned. Moreover, any damage they receive while stunned will half the stagger time to 4, and so on. In short, hitting an enemy twice while they are stunned will let them get back on their feet. 
 
 Below are the values for each Critical Type, of which every weapon will have and will determine the damage done from a Repost.
 

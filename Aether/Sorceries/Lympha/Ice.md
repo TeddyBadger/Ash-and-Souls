@@ -33,3 +33,19 @@ Strike the ground with your staff to conjure an ice storm around you in a 2m rad
 |  Ticks to Cast   |             2             |
 |   Action Type    |           Full            |
 |  Stat Build-Up   | 15 Frostbite per 2 ticks  |
+
+---
+### **Frozen Wall**
+
+Conjure a 3m long, 1m wide wall anywhere 6m from you. This wall has "1d4 + Insight" durabilty which acts like HP.  This wall remains here for "Insight" amount of rounds.
+
+|     **Info**     | **Value** |
+| :--------------: | :-------: |
+|      Damage      |    N/A    |
+|   Aether Cost    |    16     |
+|     Priority     |    16     |
+| Attunement Slots |     1     |
+| Projectile Speed |    N/A    |
+|  Ticks to Cast   |     2     |
+|   Action Type    |   Full    |
+|  Stat Build-Up   |    N/A    |
