@@ -148,7 +148,7 @@ Everyone will have a poise value, similar to that of status effects. When being 
 
 If you are quick enough and in direct range, you can use a reaction to "Riposte" the enemy, dealing large damage in a single strike. Once a Riposte is carried out, the staggered enemy will no longer be stunned. Moreover, any damage they receive while stunned will half the stagger time to 4, and so on. In short, hitting an enemy twice while they are stunned will let them get back on their feet. 
 
-Below are the values for each Critical Type, of which every weapon will have and will determine the damage done from a Repost.
+Below are the values for each Critical Type, of which every weapon will have and will determine the damage done from a Riposte.
 
 | Critical Damage Type | **Damage Dealt** |
 | :------------------: | :--------------: |
