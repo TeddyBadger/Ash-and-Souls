@@ -150,12 +150,12 @@ If you are quick enough and in direct range, you can use a reaction to "Riposte"
 
 Below are the values for each Critical Type, of which every weapon will have and will determine the damage done from a Riposte.
 
-| Critical Damage Type | **Damage Dealt** |
-| :------------------: | :--------------: |
-|         High         |       15%        |
-|        Medium        |       10%        |
-|         Low          |        5%        |
-|    Insignificant     |        2%        |
+| Critical Damage Type | **Damage Dealt of Max Vigor** |
+| :------------------: | :---------------------------: |
+|         High         |              15%              |
+|        Medium        |              10%              |
+|         Low          |              5%               |
+|    Insignificant     |              2%               |
 
 ---
 ## **Buff Types**
