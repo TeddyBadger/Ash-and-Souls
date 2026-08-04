@@ -46,7 +46,7 @@ A legendary armament forged by the atsrologers of old. Their studies allowed the
 |      Damage       |               2d8 + Stat               |
 |    Damage Type    |               Magic/Fire               |
 | Critical Dmg Type |                 Medium                 |
-|    Weapon Art     |            Carian Grandeur             |
+|    Weapon Art     |      Stance of<br>Night and Flame      |
 |       Range       |                  1.5m                  |
 |   Stat Scaling    |            Insight/Resolve             |
 |   Stat Build-Up   |                  N/A                   |
