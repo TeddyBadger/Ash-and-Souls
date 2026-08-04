@@ -39,7 +39,7 @@ A curved dagger given to one who set out on a journey to fulfil her duty long ag
 ---
 ## **Black Knife**
 
-A uniquely shaped dagger, once belonging to the numen as a sacred treasure of their culture. A rogue numen used it to slay an ancient God, the bleed imbuing the blade with the power of death.
+A uniquely shaped dagger, once belonging to the numen as a sacred treasure of their culture. A rogue numen used it to slay an ancient God, the blood imbuing the blade with the power of death.
 
 |     **Info**      |             **Value**             |
 | :---------------: | :-------------------------------: |
