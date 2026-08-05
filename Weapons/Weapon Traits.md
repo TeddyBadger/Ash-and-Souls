@@ -65,3 +65,11 @@ Weapons with **Reach** threaten space **beyond normal melee range**. When a crea
 
 - Your **melee attack tests** with this weapon are at **disadvantage**
 - Your **parry tests** with this weapon are at **disadvantage** This penalty applies **only** while the enemy remains within 1m of you.
+
+## **Swift**
+
+This weapon is very lightweight and easy to handle, making it easy to stay quick on your feet. While wielding this weapon, you gain +1 to evasion.
+
+## **Quick Slash**
+
+Thanks to the versatility of this weapon, you may spend a half action to do another attack after using a full action to attack initially. If you have not already attacked using a full action, you cannot do this.
