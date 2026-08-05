@@ -32,7 +32,7 @@ A slightly heavier than average sword with a single sided blade.
 | Critical Dmg Type |      Medium       |
 |    Weapon Art     |  Spinning Slash   |
 |     Priority      |    11 + Grace     |
-|       Range       |        1m         |
+|       Range       |       1.25m       |
 |   Stat Scaling    |       Might       |
 |   Stat Build-Up   |        N/A        |
 |   Poise Damage    |        15         |
