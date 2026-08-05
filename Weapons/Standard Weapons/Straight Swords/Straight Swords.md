@@ -13,28 +13,30 @@ A straight sword with a double edged blade. The most basic but trustworthy weapo
 |    Damage Type    |        Physical        |
 | Critical Dmg Type |         Medium         |
 |    Weapon Art     |       Stand Off        |
+|     Priority      |       11 + Grace       |
 |       Range       |          1.5m          |
 |   Stat Scaling    |      Might/Grace       |
 |   Stat Build-Up   |          N/A           |
 |   Poise Damage    |           10           |
-|   Weapon Traits   | Guarded +1<br>Reliable |
+|   Weapon Traits   | Guarded +2<br>Reliable |
 
 ---
 ## **Hawk Talon**
 
 A blade originally found attached to the legs of hawks during the historic wars, now repurposed with a hilt to allow for use as a sword.
 
-|     **Info**      |       **Value**        |
-| :---------------: | :--------------------: |
-|      Damage       |       1d6 + Stat       |
-|    Damage Type    |        Physical        |
-| Critical Dmg Type |         Medium         |
-|    Weapon Art     |     Spinning Slash     |
-|       Range       |          1.5m          |
-|   Stat Scaling    |      Might/Grace       |
-|   Stat Build-Up   |          N/A           |
-|   Poise Damage    |           10           |
-|   Weapon Traits   | Guarded +1<br>Reliable |
+|     **Info**      |        **Value**         |
+| :---------------: | :----------------------: |
+|      Damage       |        1d6 + Stat        |
+|    Damage Type    |         Physical         |
+| Critical Dmg Type |          Medium          |
+|    Weapon Art     |      Spinning Slash      |
+|     Priority      |        12 + Grace        |
+|       Range       |           1.5m           |
+|   Stat Scaling    |       Might/Grace        |
+|   Stat Build-Up   |           N/A            |
+|   Poise Damage    |            10            |
+|   Weapon Traits   | Intimidating<br>Reliable |
 
 ---
 ## **Carian Knight's Sword**
@@ -47,6 +49,7 @@ A straight sword embedded with a blue glintstone, allowing it to deal magic dama
 |    Damage Type    |         Magic          |
 | Critical Dmg Type |         Medium         |
 |    Weapon Art     |    Carian Grandeur     |
+|     Priority      |       11 + Grace       |
 |       Range       |          1.5m          |
 |   Stat Scaling    |  Might/Grace/Insight   |
 |   Stat Build-Up   |          N/A           |
@@ -64,6 +67,7 @@ Inspired by the weapon wielded by the Carian Knights, those who worshipped Miret
 |    Damage Type    |          Holy          |
 | Critical Dmg Type |         Medium         |
 |    Weapon Art     |      Sacred Blade      |
+|     Priority      |       11 + Grace       |
 |       Range       |          1.5m          |
 |   Stat Scaling    |  Might/Grace/Resolve   |
 |   Stat Build-Up   |          N/A           |

@@ -13,6 +13,7 @@ Small and basic dagger that is easy to use.
 |    Damage Type    |       Physical        |
 | Critical Dmg Type |        Medium         |
 |    Weapon Art     |       Quickstep       |
+|     Priority      |      12 + Grace       |
 |       Range       |          1m           |
 |   Stat Scaling    |         Grace         |
 |   Stat Build-Up   |          N/A          |
@@ -30,6 +31,7 @@ Sharp and well balanced dagger, typically used by those who wish to remain unsee
 |    Damage Type    |             Physical              |
 | Critical Dmg Type |               High                |
 |    Weapon Art     |             Quickstep             |
+|     Priority      |            13 + Grace             |
 |       Range       |                1m                 |
 |   Stat Scaling    |               Grace               |
 |   Stat Build-Up   |                N/A                |
@@ -47,6 +49,7 @@ This dagger has a serrated blade, stained with dried blood.
 |    Damage Type    |       Physical        |
 | Critical Dmg Type |         High          |
 |    Weapon Art     |       Quickstep       |
+|     Priority      |      13 + Grace       |
 |       Range       |          1m           |
 |   Stat Scaling    |         Grace         |
 |   Stat Build-Up   |       15 Bleed        |
@@ -64,6 +67,7 @@ A well forged dagger made from the unique minerals found in the caves under The 
 |    Damage Type    |               Holy                |
 | Critical Dmg Type |               High                |
 |    Weapon Art     |             Quickstep             |
+|     Priority      |            13 + Grace             |
 |       Range       |                1m                 |
 |   Stat Scaling    |           Grace/Resolve           |
 |   Stat Build-Up   |                N/A                |
@@ -81,6 +85,7 @@ A katana-like dagger with a tempering pattern on the blade.
 |    Damage Type    |             Physical              |
 | Critical Dmg Type |               High                |
 |    Weapon Art     |             Quickstep             |
+|     Priority      |            13 + Grace             |
 |       Range       |                1m                 |
 |   Stat Scaling    |               Grace               |
 |   Stat Build-Up   |             15 Bleed              |
@@ -98,6 +103,7 @@ A dagger forged from glintstones, causing magic to envelop the blade.
 |    Damage Type    |         Magic         |
 | Critical Dmg Type |         High          |
 |    Weapon Art     |       Quickstep       |
+|     Priority      |      13 + Grace       |
 |       Range       |          1m           |
 |   Stat Scaling    |     Grace/Insight     |
 |   Stat Build-Up   |          N/A          |

@@ -13,6 +13,7 @@ A jagged dagger with a distinctive curved blade. This weapon rips the flesh as i
 |    Damage Type    |             Physical              |
 | Critical Dmg Type |               High                |
 |    Weapon Art     |      Reduvian<br>Blood Blade      |
+|     Priority      |            13 + Grace             |
 |       Range       |                1m                 |
 |   Stat Scaling    |               Grace               |
 |   Stat Build-Up   |             30 Bleed              |
@@ -30,6 +31,7 @@ A curved dagger given to one who set out on a journey to fulfil her duty long ag
 |    Damage Type    |               Holy                |
 | Critical Dmg Type |               High                |
 |    Weapon Art     |         Blade of<br>Gold          |
+|     Priority      |            13 + Grace             |
 |       Range       |                1m                 |
 |   Stat Scaling    |           Grace/Resolve           |
 |   Stat Build-Up   |                N/A                |
@@ -47,6 +49,7 @@ A uniquely shaped dagger, once belonging to the numen as a sacred treasure of th
 |    Damage Type    |               Holy                |
 | Critical Dmg Type |               High                |
 |    Weapon Art     |         Blade of<br>Death         |
+|     Priority      |            13 + Grace             |
 |       Range       |                1m                 |
 |   Stat Scaling    |           Grace/Resolve           |
 |   Stat Build-Up   |                N/A                |

@@ -13,6 +13,7 @@ A sturdy sword, forged with a prayer to the first felled God, after they were sl
 |    Damage Type    |          Holy          |
 | Critical Dmg Type |         Medium         |
 |    Weapon Art     |       Stand Off        |
+|     Priority      |       11 + Grace       |
 |       Range       |          1.5m          |
 |   Stat Scaling    |  Might/Grace/Resolve   |
 |   Stat Build-Up   |          N/A           |
@@ -30,6 +31,7 @@ Silver sword carried by clerics of St. Trina. Inflicts sleep ailment upon foes. 
 |    Damage Type    |        Physical        |
 | Critical Dmg Type |         Medium         |
 |    Weapon Art     |    Mists of Slumber    |
+|     Priority      |       12 + Grace       |
 |       Range       |          1.5m          |
 |   Stat Scaling    |  Might/Grace/Insight   |
 |   Stat Build-Up   |        20 Sleep        |
@@ -47,6 +49,7 @@ A legendary armament forged by the atsrologers of old. Their studies allowed the
 |    Damage Type    |               Magic/Fire               |
 | Critical Dmg Type |                 Medium                 |
 |    Weapon Art     |      Stance of<br>Night and Flame      |
+|     Priority      |               11 + Grace               |
 |       Range       |                  1.5m                  |
 |   Stat Scaling    |            Insight/Resolve             |
 |   Stat Build-Up   |                  N/A                   |
