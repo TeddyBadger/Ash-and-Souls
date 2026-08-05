@@ -9,7 +9,7 @@ A straight sword with a double edged blade. The most basic but trustworthy weapo
 
 |     **Info**      |       **Value**        |
 | :---------------: | :--------------------: |
-|      Damage       |       1d6 + Stat       |
+|      Damage       |       1d8 + Stat       |
 |    Damage Type    |        Physical        |
 | Critical Dmg Type |         Medium         |
 |    Weapon Art     |       Stand Off        |
@@ -27,7 +27,7 @@ A blade originally found attached to the legs of hawks during the historic wars,
 
 |     **Info**      |        **Value**         |
 | :---------------: | :----------------------: |
-|      Damage       |        1d6 + Stat        |
+|      Damage       |        1d8 + Stat        |
 |    Damage Type    |         Physical         |
 | Critical Dmg Type |          Medium          |
 |    Weapon Art     |      Spinning Slash      |
@@ -45,7 +45,7 @@ A straight sword embedded with a blue glintstone, allowing it to deal magic dama
 
 |     **Info**      |       **Value**        |
 | :---------------: | :--------------------: |
-|      Damage       |       1d6 + Stat       |
+|      Damage       |       1d8 + Stat       |
 |    Damage Type    |         Magic          |
 | Critical Dmg Type |         Medium         |
 |    Weapon Art     |    Carian Grandeur     |
@@ -63,7 +63,7 @@ Inspired by the weapon wielded by the Carian Knights, those who worshipped Miret
 
 |     **Info**      |       **Value**        |
 | :---------------: | :--------------------: |
-|      Damage       |       1d6 + Stat       |
+|      Damage       |       1d8 + Stat       |
 |    Damage Type    |          Holy          |
 | Critical Dmg Type |         Medium         |
 |    Weapon Art     |      Sacred Blade      |
