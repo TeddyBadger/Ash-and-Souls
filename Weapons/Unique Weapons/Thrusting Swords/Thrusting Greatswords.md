@@ -25,15 +25,15 @@ Ominous piercing sword with a winding blade. Carried by the noble servants of th
 
 Piercing Gravel Stone sword containing primeval lightning: A portion of the Dragonlord's power.
 
-|     **Info**      |              **Value**               |
-| :---------------: | :----------------------------------: |
-|      Damage       |              2d8 + Stat              |
-|    Damage Type    |              Lightning               |
-| Critical Dmg Type |                Medium                |
-|    Weapon Art     |          Thundercloud Form           |
-|     Priority      |              11 + Grace              |
-|       Range       |                 1.5m                 |
-|   Stat Scaling    |         Grace/Might/Resolve          |
-|   Stat Build-Up   |                 N/A                  |
-|   Poise Damage    |                  20                  |
-|   Weapon Traits   | Swift<br>Quick Slash<br>Intimidating |
+|     **Info**      |                **Value**                |
+| :---------------: | :-------------------------------------: |
+|      Damage       |               2d8 + Stat                |
+|    Damage Type    |                Lightning                |
+| Critical Dmg Type |                 Medium                  |
+|    Weapon Art     |            Thundercloud Form            |
+|     Priority      |               11 + Grace                |
+|       Range       |                  1.5m                   |
+|   Stat Scaling    |           Grace/Might/Resolve           |
+|   Stat Build-Up   |                   N/A                   |
+|   Poise Damage    |                   20                    |
+|   Weapon Traits   | Swift +1<br>Quick Slash<br>Intimidating |

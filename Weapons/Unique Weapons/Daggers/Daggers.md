@@ -7,51 +7,51 @@ Daggers are short ranged weapons that are lightweight, quick and flexible to use
 
 A jagged dagger with a distinctive curved blade. This weapon rips the flesh as it enters, inflicting blood loss with sickening efficacy. A proud testament to the success of its vicious design, this weapon is perpetually coated in blood.
 
-|     **Info**      |             **Value**             |
-| :---------------: | :-------------------------------: |
-|      Damage       |            2d4 + Stat             |
-|    Damage Type    |             Physical              |
-| Critical Dmg Type |               High                |
-|    Weapon Art     |      Reduvian<br>Blood Blade      |
-|     Priority      |            13 + Grace             |
-|       Range       |                1m                 |
-|   Stat Scaling    |               Grace               |
-|   Stat Build-Up   |             30 Bleed              |
-|   Poise Damage    |                 5                 |
-|   Weapon Traits   | Concealable<br>Silent<br>Reliable |
+|     **Info**      |                          **Value**                           |
+| :---------------: | :----------------------------------------------------------: |
+|      Damage       |                          2d4 + Stat                          |
+|    Damage Type    |                           Physical                           |
+| Critical Dmg Type |                             High                             |
+|    Weapon Art     |                   Reduvian<br>Blood Blade                    |
+|     Priority      |                          13 + Grace                          |
+|       Range       |                              1m                              |
+|   Stat Scaling    |                            Grace                             |
+|   Stat Build-Up   |                           30 Bleed                           |
+|   Poise Damage    |                              5                               |
+|   Weapon Traits   | Concealable<br>Silent<br>Reliable<br>Quick Slash<br>Swift +2 |
 
 ---
 ## **Blade of Calling**
 
 A curved dagger given to one who set out on a journey to fulfil her duty long ago. The power of its former owner is still apparent.
 
-|     **Info**      |             **Value**             |
-| :---------------: | :-------------------------------: |
-|      Damage       |            2d4 + Stat             |
-|    Damage Type    |               Holy                |
-| Critical Dmg Type |               High                |
-|    Weapon Art     |         Blade of<br>Gold          |
-|     Priority      |            13 + Grace             |
-|       Range       |                1m                 |
-|   Stat Scaling    |           Grace/Resolve           |
-|   Stat Build-Up   |                N/A                |
-|   Poise Damage    |                 5                 |
-|   Weapon Traits   | Concealable<br>Silent<br>Reliable |
+|     **Info**      |                          **Value**                           |
+| :---------------: | :----------------------------------------------------------: |
+|      Damage       |                          2d4 + Stat                          |
+|    Damage Type    |                             Holy                             |
+| Critical Dmg Type |                             High                             |
+|    Weapon Art     |                       Blade of<br>Gold                       |
+|     Priority      |                          13 + Grace                          |
+|       Range       |                              1m                              |
+|   Stat Scaling    |                        Grace/Resolve                         |
+|   Stat Build-Up   |                             N/A                              |
+|   Poise Damage    |                              5                               |
+|   Weapon Traits   | Concealable<br>Silent<br>Reliable<br>Quick Slash<br>Swift +2 |
 
 ---
 ## **Black Knife**
 
 A uniquely shaped dagger, once belonging to the numen as a sacred treasure of their culture. A rogue numen used it to slay an ancient God, the blood imbuing the blade with the power of death.
 
-|     **Info**      |             **Value**             |
-| :---------------: | :-------------------------------: |
-|      Damage       |            2d6 + Stat             |
-|    Damage Type    |               Holy                |
-| Critical Dmg Type |               High                |
-|    Weapon Art     |         Blade of<br>Death         |
-|     Priority      |            13 + Grace             |
-|       Range       |                1m                 |
-|   Stat Scaling    |           Grace/Resolve           |
-|   Stat Build-Up   |                N/A                |
-|   Poise Damage    |                 5                 |
-|   Weapon Traits   | Concealable<br>Silent<br>Reliable |
+|     **Info**      |                          **Value**                           |
+| :---------------: | :----------------------------------------------------------: |
+|      Damage       |                          2d6 + Stat                          |
+|    Damage Type    |                             Holy                             |
+| Critical Dmg Type |                             High                             |
+|    Weapon Art     |                      Blade of<br>Death                       |
+|     Priority      |                          13 + Grace                          |
+|       Range       |                              1m                              |
+|   Stat Scaling    |                        Grace/Resolve                         |
+|   Stat Build-Up   |                             N/A                              |
+|   Poise Damage    |                              5                               |
+|   Weapon Traits   | Concealable<br>Silent<br>Reliable<br>Quick Slash<br>Swift +2 |

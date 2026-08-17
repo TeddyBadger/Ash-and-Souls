@@ -7,18 +7,18 @@ Thrusting Swords strike a balance between moderate damage, fast attacks, and goo
 
 A piercing sword with a sharp, slender blade. As one of the smaller piercing swords, quick successive thrust area easy to perform, but without a cutting edge, it cannot be used for slashing attacks.
 
-|     **Info**      |      **Value**       |
-| :---------------: | :------------------: |
-|      Damage       |      1d6 + Stat      |
-|    Damage Type    |       Physical       |
-| Critical Dmg Type |         High         |
-|    Weapon Art     |   Impaling Thrust    |
-|     Priority      |      12 + Grace      |
-|       Range       |        1.25m         |
-|   Stat Scaling    |        Grace         |
-|   Stat Build-Up   |         N/A          |
-|   Poise Damage    |          10          |
-|   Weapon Traits   | Swift<br>Quick Slash |
+|     **Info**      |        **Value**        |
+| :---------------: | :---------------------: |
+|      Damage       |       1d6 + Stat        |
+|    Damage Type    |        Physical         |
+| Critical Dmg Type |          High           |
+|    Weapon Art     |     Impaling Thrust     |
+|     Priority      |       12 + Grace        |
+|       Range       |          1.25m          |
+|   Stat Scaling    |          Grace          |
+|   Stat Build-Up   |           N/A           |
+|   Poise Damage    |           10            |
+|   Weapon Traits   | Swift +1<br>Quick Slash |
 
 ---
 ## **Estoc**

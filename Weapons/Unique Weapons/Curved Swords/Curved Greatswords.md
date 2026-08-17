@@ -18,7 +18,7 @@ Curved greatsword with a gently undulating blade, wielded by Bloodhound Knights.
 |   Stat Scaling    |          Grace          |
 |   Stat Build-Up   |        15 Bleed         |
 |   Poise Damage    |           12            |
-|   Weapon Traits   |    Swift<br>Reliable    |
+|   Weapon Traits   |  Swift +1<br>Reliable   |
 
 ---
 ## **Magma Wyrm's Scalesword**
