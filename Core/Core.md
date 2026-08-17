@@ -161,3 +161,33 @@ Below are the values for each Critical Type, of which every weapon will have and
 ## **Buff Types**
 
 There are two separate types of buffs. These consist of Body buffs, and Aura buffs. Body buffs are applied to only one individual at a time, whereas Aura buffs tend to be applied in an area, effecting everyone in range. One of each type of buff can be applied at the same time, but two different Body buffs cannot be used simultaneously.
+
+---
+
+## **Two-Handing**
+
+When using a weapon, you can choose to two hand. This increases the damage dealt, poise damage dealt, and can also change some other features depending on weapon traits.
+
+The increase to poise damage is by 25%, and the increase to normal damage is the next step up in dice rank. Below is the table for reference, along with the average and range for reasoning.
+
+| **Dice Rank** | **Roll** | **Average** | **Range** |
+| :-----------: | :------: | :---------: | :-------: |
+|       1       |   1d4    |     2.5     |    1-4    |
+|       2       |   1d6    |     3.5     |    1-6    |
+|       3       |   1d8    |     4.5     |    1-8    |
+|       4       |   2d4    |      5      |    2-8    |
+|       5       |   1d10   |     5.5     |   1-10    |
+|       6       |   1d12   |     6.5     |   1-12    |
+|       7       |   2d6    |      7      |   2-12    |
+|       8       |   3d4    |     7.5     |   3-12    |
+|       9       |   2d8    |      9      |   2-16    |
+|      10       |   1d20   |    10.5     |   1-20    |
+|      11       |   3d6    |    10.5     |   3-18    |
+|      12       |   2d10   |     11      |   2-20    |
+|      13       |   2d12   |     13      |   2-24    |
+|      14       |   3d8    |    13.5     |   3-24    |
+|      15       |   3d10   |    16.5     |   3-30    |
+|      16       |   3d12   |    19.5     |   3-36    |
+|      17       |   2d20   |     21      |   2-40    |
+|      18       |   3d20   |    31.5     |   3-60    |
+
