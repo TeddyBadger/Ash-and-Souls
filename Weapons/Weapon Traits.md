@@ -80,3 +80,7 @@ Thanks to the versatility of this weapon, you may spend a half action to do anot
 ## **Double Hit**
 
 Because of the versatility and unique shape of this weapon, when attacking with a full action, you can freely times your damage by 1.5 as long as you are using both hands, due the other part of this weapon hitting the victim again.
+
+## **Hard Impact**
+
+This weapon specialises in breaking the enemy's stance. When two handing this weapon, any poise damage it deals is increased by 5. Also, if the wielder's Might is greater than or equal to 5, once every other round, you can cause a mini-stagger, forcing the foe skip one of their half actions.
